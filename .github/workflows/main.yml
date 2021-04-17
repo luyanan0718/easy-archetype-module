@@ -40,7 +40,7 @@ jobs:
       - name: maven update version
         run: |
           mvn versions:set
-          mvn versions:commit
+ #         mvn versions:commit
       - name: maven deploy
         run: |
           mvn deploy
