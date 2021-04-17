@@ -37,6 +37,10 @@ jobs:
         run: |
           git config --global user.email luyanan0718@163.com
           git config --global user.name luyanan
+      - name: maven install
+        run: |
+          mvn clean install -U -Dmaven.test.skip=true
+      #         mvn versions:commit
       - name: maven update version
         run: |
           mvn versions:set
