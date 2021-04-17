@@ -1,0 +1,57 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+      - name: set maven environment
+        uses: s4u/maven-settings-action@v2.4.0
+        with:
+          servers: '[{"id": "github", "username": "luyanan0718", "password": "${{secrets.SONATYPE_PASSWORD }}"}]'
+      - name: Setup SSH Private Key
+        env:
+          token_Private_Keys: ${{ secrets.token_Private_Keys }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$token_Private_Keys" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+      - name: set git environment
+        run: |
+          git config --global user.email luyanan0718@163.com
+          git config --global user.name luyanan
+      - name: maven update version
+        run: |
+          mvn versions:set
+          mvn versions:commit
+      - name: maven deploy
+        run: |
+          mvn deploy
+      - name: maven  add tag
+        run: |
+          mvn scm:tag
+      - name: git commit
+        run: |
+          git add .
+          git commit -m "update version" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

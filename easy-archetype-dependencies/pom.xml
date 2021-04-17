@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--    <parent>-->
+    <!--        <artifactId>easy-archetype-module</artifactId>-->
+    <!--        <groupId>com.easy.archetype</groupId>-->
+    <!--        <version>1.1-SNAPSHOT</version>-->
+    <!--    </parent>-->
+    <groupId>com.easy.archetype</groupId>
+    <artifactId>easy-archetype-dependencies</artifactId>
+    <packaging>pom</packaging>
+    <version>1.1-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <description>父控功能</description>
+    <dependencyManagement>
+        <dependencies>
+            <!--自定义组件 -->
+            <dependency>
+                <groupId>com.easy.archetype.job</groupId>
+                <artifactId>easy-archetype-job-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.easy.archetype.security</groupId>
+                <artifactId>easy-archetype-security-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.easy.archetype.security.core</groupId>
+                <artifactId>easy-archetype-security-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.easy.archetype.data</groupId>
+                <artifactId>easy-archetype-data-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.easy.archetype.generate</groupId>
+                <artifactId>easy-archetype-generate</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.easy.archetype.framework</groupId>
+                <artifactId>easy-archetype-framework-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--自定义组件结束 -->
+        </dependencies>
+    </dependencyManagement>
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>github</name>
+            <url>https://maven.pkg.github.com/luyanan0718/easy-archetype-module</url>
+            <releases>
+            </releases>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/luyanan0718/easy-archetype-module</url>
+        </repository>
+    </distributionManagement>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/luyanan0718/easy-archetype-module</url>
+        <connection>
+            scm:git:git://github.com/luyanan0718/easy-archetype-module.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://git@github.com/luyanan0718/easy-archetype-module.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <developers>
+        <developer>
+            <name>luyanan</name>
+            <email>luyanan0718@163.com</email>
+            <url>https://luyanan.com</url>
+        </developer>
+    </developers>
+</project>
