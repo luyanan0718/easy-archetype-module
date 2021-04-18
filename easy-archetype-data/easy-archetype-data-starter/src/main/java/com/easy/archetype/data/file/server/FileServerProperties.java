@@ -46,6 +46,41 @@ public class FileServerProperties {
 	 */
 	private Boolean endpoint;
 
+	/**
+	 * 文件名生成策略
+	 *
+	 * @since 2021/4/17
+	 */
+
+	private FileNameGenerate fileName = new FileNameGenerate();
+
+
+	/**
+	 * 文件名生成
+	 *
+	 * @author Administrator
+	 * @since 2021/4/17
+	 */
+	@Data
+	public static class FileNameGenerate {
+
+		/**
+		 * 类型
+		 *
+		 * @since 2021/4/17
+		 */
+		private String type = "hash";
+
+		/**
+		 * Hash槽的大小
+		 *
+		 * @since 2021/4/17
+		 */
+
+		private int hashGroove = 12;
+	}
+
+
 	@Data
 
 	public static class Ftp {

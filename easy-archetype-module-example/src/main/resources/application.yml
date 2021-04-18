@@ -7,7 +7,7 @@ easy:
           oss:
             bucket-name: easy-archetype
             access-key: root
-            endpoint: http://localhost:9001/
+            endpoint: http://39.99.137.69:9001/
             region: http://localhost:8080
             secret-key: password
           endpoint: true
@@ -26,4 +26,4 @@ com:
   easy:
     archetype:
       job:
-        enable: true
+        enable: false

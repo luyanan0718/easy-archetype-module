@@ -1,5 +1,9 @@
 package com.easy.archetype.data.file.server;
 
+import com.easy.archetype.data.file.FileInfo;
+
+import java.io.InputStream;
+
 /**
  * 文件名生成策略
  *
@@ -12,10 +16,9 @@ public interface FileNameGenerator {
 	/**
 	 * 文件名生成
 	 *
-	 * @param path     文件路径
-	 * @param fileName 文件名
+	 * @param fileInfo 文件详情
 	 * @return java.lang.String 文件名
 	 * @since 2021/2/22
 	 */
-	String generate(String path, String fileName);
+	FileInfo generate(FileInfo fileInfo);
 }

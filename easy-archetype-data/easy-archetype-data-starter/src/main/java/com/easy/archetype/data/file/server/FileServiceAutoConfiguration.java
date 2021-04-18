@@ -34,8 +34,8 @@ public class FileServiceAutoConfiguration {
 	 * @since 2021/2/25
 	 */
 	@Bean
-	public IFileService fileService(IFileStorageStrategy fileStorageStrategy) {
-		return new FileServiceServerImpl(fileStorageStrategy);
+	public IFileService fileService(IFileStorageStrategy fileStorageStrategy, FileNameGenerator fileNameGenerator) {
+		return new FileServiceServerImpl(fileStorageStrategy, fileNameGenerator);
 	}
 
 	/**
@@ -76,4 +76,16 @@ public class FileServiceAutoConfiguration {
 		return new FileServiceEndpoint();
 	}
 
+	@ConditionalOnProperty(prefix = FileServerProperties.PREFIX, name = "fileName.type", havingValue = "simple", matchIfMissing = false)
+	@Bean
+	public FileNameGenerator simpleFileNameGenerator() {
+		return new SimpleFileNameGenerator();
+	}
+
+
+	@ConditionalOnProperty(prefix = FileServerProperties.PREFIX, name = "fileName.type", havingValue = "hash", matchIfMissing = true)
+	@Bean
+	public FileNameGenerator hashFileNameGenerator(FileServerProperties fileServerProperties) {
+		return new HashFileNameGenerator(fileServerProperties);
+	}
 }
