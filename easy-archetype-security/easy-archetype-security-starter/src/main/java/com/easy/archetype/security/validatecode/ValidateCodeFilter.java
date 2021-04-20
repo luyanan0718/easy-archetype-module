@@ -49,7 +49,8 @@ public class ValidateCodeFilter extends OncePerRequestFilter {
 
 		if (null != validateCodeProperties.getValidateCodeFilter() && validateCodeProperties.getValidateCodeFilter().equals(Boolean.TRUE)
 				&& CollectionUtil.isNotEmpty(validateCodeProperties.getValidateCodeUrls())
-				&& validateCodeProperties.getValidateCodeUrls().contains(request.getRequestURI())
+				&& validateCodeProperties.getValidateCodeUrls().contains(request.getRequestURI()
+		) && request.getMethod().toLowerCase().equals("post")
 		) {
 			String uuid = request.getParameter(validateCodeProperties.getValidateCodeFilterKeyParameter());
 			String code = request.getParameter(validateCodeProperties.getValidateCodeFilterCodeParameter());
