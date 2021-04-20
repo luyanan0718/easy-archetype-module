@@ -1,16 +1,16 @@
 package com.easy.archetype.data.configcenter;
 
+import com.easy.archetype.data.configcenter.jdbc.JdbcPropertySource;
 import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
+import org.springframework.boot.autoconfigure.condition.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.context.refresh.ContextRefresher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.ConfigurableEnvironment;
+
+import javax.sql.DataSource;
 
 /**
  * 配置中心自动配置类
@@ -29,10 +29,17 @@ public class ConfigCenterAutoConfiguration {
 	@ConditionalOnBean(PropertySource.class)
 	@Bean
 	public ConfigCenter configCenter(PropertySource propertySource, ContextRefresher contextRefresher,
-			ConfigurableEnvironment configurableEnvironment) {
+									 ConfigurableEnvironment configurableEnvironment) {
 		ConfigCenter configCenter = new ConfigCenter(propertySource, contextRefresher, configurableEnvironment);
 		configCenter.mergeProperties();
 		return configCenter;
+	}
+
+
+	@ConditionalOnMissingBean(PropertySource.class)
+	@Bean
+	public PropertySource propertySource(DataSource dataSource) {
+		return new JdbcPropertySource(dataSource);
 	}
 
 }

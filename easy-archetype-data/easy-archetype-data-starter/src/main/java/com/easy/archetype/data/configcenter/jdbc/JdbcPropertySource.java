@@ -50,6 +50,11 @@ public class JdbcPropertySource implements PropertySource {
 		this.group = group;
 	}
 
+
+	public JdbcPropertySource(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
 	private String sql = "select id,group_name,config_key,config_value,remark,create_time,update_time from cc_config";
 
 	@SneakyThrows
@@ -75,8 +80,7 @@ public class JdbcPropertySource implements PropertySource {
 				return configEntities;
 			});
 
-		}
-		finally {
+		} finally {
 			if (null != connection) {
 				connection.close();
 			}
