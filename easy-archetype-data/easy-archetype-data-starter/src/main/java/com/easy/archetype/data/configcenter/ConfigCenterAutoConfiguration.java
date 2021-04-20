@@ -26,7 +26,6 @@ import javax.sql.DataSource;
 @Configuration
 public class ConfigCenterAutoConfiguration {
 
-	@ConditionalOnBean(PropertySource.class)
 	@Bean
 	public ConfigCenter configCenter(PropertySource propertySource, ContextRefresher contextRefresher,
 									 ConfigurableEnvironment configurableEnvironment) {
