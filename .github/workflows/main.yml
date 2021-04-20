@@ -41,16 +41,16 @@ jobs:
         run: |
           mvn clean install -U -Dmaven.test.skip=true
       #         mvn versions:commit
-#      - name: maven update version
-#        run: |
-#          mvn versions:set
+      - name: maven update version
+        run: |
+          mvn versions:set
  #         mvn versions:commit
       - name: maven deploy
         run: |
           mvn deploy
-#      - name: maven  add tag
-      #        run: |
-      #          mvn scm:tag
+      - name: maven  add tag
+        run: |
+          mvn scm:tag
       - name: git commit
         run: |
           git add .
