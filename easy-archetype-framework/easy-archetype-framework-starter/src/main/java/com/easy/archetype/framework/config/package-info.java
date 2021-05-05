@@ -5,4 +5,4 @@
  * @author luyanan
  * @since 2021/1/31
  */
-package com.easy.archetype.framework.config;
+package io.github.easy.archetype.framework.config;

@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
 import java.text.MessageFormat;
 

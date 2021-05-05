@@ -1,10 +1,10 @@
-package com.easy.archetype.security.oauth.client;
+package io.github.easy.archetype.security.oauth.client;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.security.core.IgnoringLoginScanner;
-import com.easy.archetype.security.oauth.client.exception.AuthExceptionEntryPoint;
-import com.easy.archetype.security.oauth.client.exception.CustomAccessDeniedHandler;
+import io.github.easy.archetype.security.core.IgnoringLoginScanner;
+import io.github.easy.archetype.security.oauth.client.exception.AuthExceptionEntryPoint;
+import io.github.easy.archetype.security.oauth.client.exception.CustomAccessDeniedHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

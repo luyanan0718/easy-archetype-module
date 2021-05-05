@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.sensitive;
+package io.github.easy.archetype.framework.sensitive;
 
 /**
  * 默认的脱敏策略

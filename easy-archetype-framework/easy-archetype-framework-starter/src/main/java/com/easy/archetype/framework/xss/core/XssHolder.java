@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.xss.core;
+package io.github.easy.archetype.framework.xss.core;
 
 /**
  * 使用ThreadLocal 存储线程间的数据

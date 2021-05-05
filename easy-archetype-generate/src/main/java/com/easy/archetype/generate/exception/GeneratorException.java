@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.exception;
+package io.github.easy.archetype.generate.exception;
 
 /**
  * 代码生成异常类

@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.engine;
+package io.github.easy.archetype.generate.engine;
 
 import java.util.Map;
 

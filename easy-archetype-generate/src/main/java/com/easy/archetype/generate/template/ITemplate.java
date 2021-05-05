@@ -1,8 +1,8 @@
-package com.easy.archetype.generate.template;
+package io.github.easy.archetype.generate.template;
 
-import com.easy.archetype.generate.config.GlobalConfig;
-import com.easy.archetype.generate.config.TemplateConfig;
-import com.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.config.TemplateConfig;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -33,7 +33,7 @@ public interface ITemplate {
 
 	/**
 	 * 生成配置文件
-	 * @return com.easy.archetype.framework.core.generate.config.TemplateConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.TemplateConfig
 	 * @since 2021/2/1
 	 */
 	TemplateConfig config();

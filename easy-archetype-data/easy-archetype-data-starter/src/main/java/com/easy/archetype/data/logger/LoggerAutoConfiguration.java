@@ -1,4 +1,4 @@
-package com.easy.archetype.data.logger;
+package io.github.easy.archetype.data.logger;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.ObjectProvider;

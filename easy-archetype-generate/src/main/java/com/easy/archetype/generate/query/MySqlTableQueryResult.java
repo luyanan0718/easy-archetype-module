@@ -1,11 +1,11 @@
-package com.easy.archetype.generate.query;
+package io.github.easy.archetype.generate.query;
 
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.db.handler.RsHandler;
-import com.easy.archetype.generate.core.TableFieldEntity;
-import com.easy.archetype.generate.core.TableIndexEntity;
-import com.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.core.TableFieldEntity;
+import io.github.easy.archetype.generate.core.TableIndexEntity;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;

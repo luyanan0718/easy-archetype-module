@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.spring.message;
+package io.github.easy.archetype.framework.spring.message;
 
-import com.easy.archetype.framework.spring.SpringContextHolder;
+import io.github.easy.archetype.framework.spring.SpringContextHolder;
 import lombok.experimental.UtilityClass;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;

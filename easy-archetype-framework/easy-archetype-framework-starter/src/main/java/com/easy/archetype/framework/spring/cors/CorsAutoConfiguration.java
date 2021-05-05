@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.spring.cors;
+package io.github.easy.archetype.framework.spring.cors;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.xss.annotation;
+package io.github.easy.archetype.framework.xss.annotation;
 
 import java.lang.annotation.*;
 

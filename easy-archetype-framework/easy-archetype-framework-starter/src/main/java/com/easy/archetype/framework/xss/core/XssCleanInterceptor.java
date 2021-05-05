@@ -1,8 +1,8 @@
-package com.easy.archetype.framework.xss.core;
+package io.github.easy.archetype.framework.xss.core;
 
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.xss.XssProperties;
-import com.easy.archetype.framework.xss.annotation.XssCleanIgnore;
+import io.github.easy.archetype.framework.xss.XssProperties;
+import io.github.easy.archetype.framework.xss.annotation.XssCleanIgnore;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.http.HttpMethod;

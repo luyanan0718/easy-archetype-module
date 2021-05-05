@@ -1,6 +1,6 @@
-package com.easy.archetype.generate.template;
+package io.github.easy.archetype.generate.template;
 
-import com.easy.archetype.generate.config.TemplateConfig;
+import io.github.easy.archetype.generate.config.TemplateConfig;
 
 /**
  * 模板配置处理类

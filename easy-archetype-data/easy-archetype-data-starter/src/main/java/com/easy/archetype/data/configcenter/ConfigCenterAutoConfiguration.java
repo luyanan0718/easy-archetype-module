@@ -1,7 +1,7 @@
-package com.easy.archetype.data.configcenter;
+package io.github.easy.archetype.data.configcenter;
 
-import com.easy.archetype.data.configcenter.jdbc.JdbcPropertySource;
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.data.configcenter.jdbc.JdbcPropertySource;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
 import org.springframework.boot.autoconfigure.condition.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

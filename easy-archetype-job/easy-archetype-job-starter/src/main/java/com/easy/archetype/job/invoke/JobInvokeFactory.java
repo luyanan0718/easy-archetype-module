@@ -1,7 +1,7 @@
-package com.easy.archetype.job.invoke;
+package io.github.easy.archetype.job.invoke;
 
 import cn.hutool.core.lang.Assert;
-import com.easy.archetype.job.exception.JobException;
+import io.github.easy.archetype.job.exception.JobException;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 

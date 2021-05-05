@@ -1,9 +1,9 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ArrayUtil;
-import com.easy.archetype.framework.lambda.LambdaUtils;
-import com.easy.archetype.framework.lambda.Sfunction;
+import io.github.easy.archetype.framework.lambda.LambdaUtils;
+import io.github.easy.archetype.framework.lambda.Sfunction;
 import lombok.Data;
 import lombok.SneakyThrows;
 
@@ -70,7 +70,7 @@ public class EntityWrapper<T> {
 	 * 添加查询的字段
 	 *
 	 * @param columns
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> select(String... columns) {
@@ -85,7 +85,7 @@ public class EntityWrapper<T> {
 	 * 设置查询字段
 	 *
 	 * @param columns
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> select(Sfunction<T, ?>... columns) {
@@ -106,7 +106,7 @@ public class EntityWrapper<T> {
 	 * 往SQL后面追加
 	 *
 	 * @param sql
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> lastSql(String sql) {
@@ -121,7 +121,7 @@ public class EntityWrapper<T> {
 	 * @param condition 触发条件
 	 * @param column    字段
 	 * @param val       值
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> like(boolean condition, String column, Object val) {
@@ -135,7 +135,7 @@ public class EntityWrapper<T> {
 	 * @param column    字段
 	 * @param val       值
 	 * @param sqlLike   类型
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> like(boolean condition, String column, Object val, SqlLike sqlLike) {
@@ -152,7 +152,7 @@ public class EntityWrapper<T> {
 	 * @param condition 触发条件
 	 * @param column    字段
 	 * @param val       值
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> rightLike(boolean condition, String column, Object val) {
@@ -165,7 +165,7 @@ public class EntityWrapper<T> {
 	 * @param condition 触发条件
 	 * @param column    字段
 	 * @param val       值
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/8
 	 */
 	public EntityWrapper<T> leftLike(boolean condition, String column, Object val) {
@@ -178,7 +178,7 @@ public class EntityWrapper<T> {
 	 * @param condition 触发tiaojian
 	 * @param column    字段
 	 * @param vals      值
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/9
 	 */
 	public EntityWrapper<T> in(boolean condition, String column, Collection<? extends Serializable> vals) {
@@ -196,7 +196,7 @@ public class EntityWrapper<T> {
 	 * @param condition 触发条件
 	 * @param column    字段
 	 * @param val       值
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrapper<T>
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrapper<T>
 	 * @since 2021/3/9
 	 */
 	public EntityWrapper<T> eq(boolean condition, String column, Object val) {

@@ -1,4 +1,4 @@
-package com.easy.archetype.security.core;
+package io.github.easy.archetype.security.core;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.StrUtil;

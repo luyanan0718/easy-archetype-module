@@ -1,10 +1,10 @@
-package com.easy.archetype.generate.template;
+package io.github.easy.archetype.generate.template;
 
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.generate.config.GlobalConfig;
-import com.easy.archetype.generate.config.TemplateConfig;
-import com.easy.archetype.generate.core.TableFieldEntity;
-import com.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.config.TemplateConfig;
+import io.github.easy.archetype.generate.core.TableFieldEntity;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
 
 import java.util.*;
 
@@ -68,7 +68,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加需要排除的字段
 	 * @param excludeField 需要排除的字段
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setExcludeField(String... excludeField) {
@@ -81,7 +81,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加需要排除的字段
 	 * @param excludeField 需要排除的字段
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setExcludeField(Collection<String> excludeField) {
@@ -99,7 +99,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加 import
 	 * @param imports 需要导入的包
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setImport(String... imports) {
@@ -112,7 +112,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加 import
 	 * @param imports 需要导入的包
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setImport(Collection<String> imports) {
@@ -125,7 +125,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加 import
 	 * @param imports 需要导入的包
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setImport(Class<?>... imports) {
@@ -138,7 +138,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加注解
 	 * @param annotations 注解
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setAnnotations(String... annotations) {
@@ -151,7 +151,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 添加注解
 	 * @param annotations 注解
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate setAnnotations(Class<?>... annotations) {
@@ -176,7 +176,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 设置模板处理类
 	 * @param templateConfigHandler 模板处理类
-	 * @return com.easy.archetype.framework.core.generate.template.AbstractTemplate
+	 * @return io.github.easy.archetype.framework.core.generate.template.AbstractTemplate
 	 * @since 2021/2/2
 	 */
 	public AbstractTemplate templateConfigHandler(TemplateConfigHandler templateConfigHandler) {
@@ -210,7 +210,7 @@ public abstract class AbstractTemplate implements ITemplate {
 	/**
 	 * 获取id字段
 	 * @param tableInfoEntity
-	 * @return com.easy.archetype.framework.core.generate.core.TableFieldEntity
+	 * @return io.github.easy.archetype.framework.core.generate.core.TableFieldEntity
 	 * @since 2021/2/2
 	 */
 	private TableFieldEntity getIdField(TableInfoEntity tableInfoEntity) {

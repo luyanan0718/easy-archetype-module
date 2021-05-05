@@ -1,6 +1,6 @@
-package com.easy.archetype.security.oauth.server;
+package io.github.easy.archetype.security.oauth.server;
 
-import com.easy.archetype.security.oauth.SpringSecurityOauthProperties;
+import io.github.easy.archetype.security.oauth.SpringSecurityOauthProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

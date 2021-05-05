@@ -1,4 +1,4 @@
-package com.easy.archetype.data.configcenter.jdbc;
+package io.github.easy.archetype.data.configcenter.jdbc;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

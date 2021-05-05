@@ -1,4 +1,4 @@
-package com.easy.archetype.data.configcenter;
+package io.github.easy.archetype.data.configcenter;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

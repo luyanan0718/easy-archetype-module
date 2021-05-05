@@ -1,10 +1,10 @@
-package com.easy.archetype.data.file.server;
+package io.github.easy.archetype.data.file.server;
 
-import com.easy.archetype.data.file.FileProperties;
-import com.easy.archetype.data.file.FileTemplate;
-import com.easy.archetype.data.file.IFileService;
-import com.easy.archetype.data.file.server.storagestrategy.FtpFileStorageStrategy;
-import com.easy.archetype.data.file.server.storagestrategy.MinioFileStorageStrategy;
+import io.github.easy.archetype.data.file.FileProperties;
+import io.github.easy.archetype.data.file.FileTemplate;
+import io.github.easy.archetype.data.file.IFileService;
+import io.github.easy.archetype.data.file.server.storagestrategy.FtpFileStorageStrategy;
+import io.github.easy.archetype.data.file.server.storagestrategy.MinioFileStorageStrategy;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -30,7 +30,7 @@ public class FileServiceAutoConfiguration {
 	 * 存储服务
 	 *
 	 * @param fileStorageStrategy
-	 * @return com.easy.archetype.framework.data.file.IFileService
+	 * @return io.github.easy.archetype.framework.data.file.IFileService
 	 * @since 2021/2/25
 	 */
 	@Bean
@@ -42,7 +42,7 @@ public class FileServiceAutoConfiguration {
 	 * ftp存储
 	 *
 	 * @param fileServerProperties
-	 * @return com.easy.archetype.framework.data.file.server.IFileStorageStrategy
+	 * @return io.github.easy.archetype.framework.data.file.server.IFileStorageStrategy
 	 * @since 2021/2/25
 	 */
 	@Bean
@@ -55,7 +55,7 @@ public class FileServiceAutoConfiguration {
 	 * minio存储
 	 *
 	 * @param fileServerProperties
-	 * @return com.easy.archetype.framework.data.file.server.IFileStorageStrategy
+	 * @return io.github.easy.archetype.framework.data.file.server.IFileStorageStrategy
 	 * @since 2021/2/25
 	 */
 	@Bean
@@ -67,7 +67,7 @@ public class FileServiceAutoConfiguration {
 	/**
 	 * 文件服务端点
 	 *
-	 * @return com.easy.archetype.framework.data.file.server.FileServiceEndpoint
+	 * @return io.github.easy.archetype.framework.data.file.server.FileServiceEndpoint
 	 * @since 2021/2/26
 	 */
 	@ConditionalOnProperty(prefix = FileServerProperties.PREFIX, name = "endpoint", havingValue = "true", matchIfMissing = false)

@@ -1,8 +1,8 @@
-package com.easy.archetype.data.file.client;
+package io.github.easy.archetype.data.file.client;
 
-import com.easy.archetype.data.file.FileProperties;
-import com.easy.archetype.data.file.client.transport.FeignFileTransport;
-import com.easy.archetype.data.file.client.transport.HttpFileTransport;
+import io.github.easy.archetype.data.file.FileProperties;
+import io.github.easy.archetype.data.file.client.transport.FeignFileTransport;
+import io.github.easy.archetype.data.file.client.transport.HttpFileTransport;
 import feign.Client;
 import feign.Contract;
 import feign.codec.Decoder;

@@ -1,13 +1,13 @@
-package com.easy.archetype.job.controller;
+package io.github.easy.archetype.job.controller;
 
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.framework.page.RespEntity;
-import com.easy.archetype.job.entity.JobVo;
-import com.easy.archetype.job.exception.JobException;
-import com.easy.archetype.job.invoke.JobInvokeFactory;
-import com.easy.archetype.job.service.JobService;
-import com.easy.archetype.job.utils.CronUtils;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.framework.page.RespEntity;
+import io.github.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.exception.JobException;
+import io.github.easy.archetype.job.invoke.JobInvokeFactory;
+import io.github.easy.archetype.job.service.JobService;
+import io.github.easy.archetype.job.utils.CronUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.quartz.SchedulerException;
@@ -39,7 +39,7 @@ public class JobController {
 	 * 分页列表
 	 *
 	 * @param pageRequestParams
-	 * @return com.easy.archetype.framework.page.RespEntity<com.easy.archetype.framework.page.PageInfo < com.easy.archetype.job.entity.JobVo>>
+	 * @return io.github.easy.archetype.framework.page.RespEntity<io.github.easy.archetype.framework.page.PageInfo < io.github.easy.archetype.job.entity.JobVo>>
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "分页列表")
@@ -54,7 +54,7 @@ public class JobController {
 	 * 根据任务id查询详情
 	 *
 	 * @param jobId
-	 * @return com.easy.archetype.framework.page.RespEntity<com.easy.archetype.job.entity.JobVo>
+	 * @return io.github.easy.archetype.framework.page.RespEntity<io.github.easy.archetype.job.entity.JobVo>
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "根据任务id查询详情")
@@ -68,7 +68,7 @@ public class JobController {
 	 * 添加任务
 	 *
 	 * @param jobVo
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "添加任务")
@@ -88,7 +88,7 @@ public class JobController {
 	 * 编辑
 	 *
 	 * @param jobVo
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "编辑")
@@ -105,7 +105,7 @@ public class JobController {
 	 * 修改状态
 	 *
 	 * @param jobVo
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = " 修改状态")
@@ -121,7 +121,7 @@ public class JobController {
 	 * 定时任务立即执行
 	 *
 	 * @param jobVo
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = " 定时任务立即执行")
@@ -136,7 +136,7 @@ public class JobController {
 	 * 删除定时任务
 	 *
 	 * @param jobIds
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "删除定时任务")
@@ -150,7 +150,7 @@ public class JobController {
 	/**
 	 * 反射类型
 	 *
-	 * @return com.easy.archetype.framework.page.RespEntity<java.util.List < java.lang.String>>
+	 * @return io.github.easy.archetype.framework.page.RespEntity<java.util.List < java.lang.String>>
 	 * @since 2021/4/6
 	 */
 	@ApiOperation(value = "反射类型")

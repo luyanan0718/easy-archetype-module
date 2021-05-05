@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.conver;
+package io.github.easy.archetype.generate.conver;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -276,7 +276,7 @@ public enum JAVAColumnTypeEnums implements IColumnType {
 	/**
 	 * 根据类型获取java枚举类型
 	 * @param type
-	 * @return com.easy.archetype.framework.core.generate.conver.IColumnType
+	 * @return io.github.easy.archetype.framework.core.generate.conver.IColumnType
 	 * @since 2021/1/31
 	 */
 	public IColumnType get(String type) {

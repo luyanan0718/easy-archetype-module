@@ -1,4 +1,4 @@
-package com.easy.archetype.job.config;
+package io.github.easy.archetype.job.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -12,7 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties(prefix = JobProperties.PREFIX)
 public class JobProperties {
-	public static final String PREFIX = "com.easy.archetype.job";
+	public static final String PREFIX = "io.github.easy.archetype.job";
 
 	/**
 	 * 是否开启

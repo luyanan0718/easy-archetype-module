@@ -1,4 +1,4 @@
-package com.easy.archetype.data.mybatisplus;
+package io.github.easy.archetype.data.mybatisplus;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.core.enums.SqlMethod;

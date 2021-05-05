@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.config;
+package io.github.easy.archetype.generate.config;
 
 import cn.hutool.core.util.StrUtil;
 
@@ -16,7 +16,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置数据库url
 	 * @param dataSourceUrl 数据库url
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setDataSourceUrl(String dataSourceUrl) {
@@ -36,7 +36,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置数据库用户名
 	 * @param dataSourceUserName 数据库用户名
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setDataSourceUserName(String dataSourceUserName) {
@@ -56,7 +56,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置数据库驱动
 	 * @param dataSourceDriverClassName 数据库驱动
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setDataSourceDriverClassName(String dataSourceDriverClassName) {
@@ -76,7 +76,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置数据库密码
 	 * @param dataSourcePassWord 数据库密码
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setDataSourcePassWord(String dataSourcePassWord) {
@@ -96,7 +96,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置需要生成的表
 	 * @param includes 需要生成的表
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setIncludes(String includes) {
@@ -117,7 +117,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置需要排除的表
 	 * @param exclude 需要排除的表
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setExclude(String exclude) {
@@ -138,7 +138,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置需要移除的表前缀
 	 * @param removeTablePrefix 移除的表前缀
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setRemoveTablePrefix(String removeTablePrefix) {
@@ -161,7 +161,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置用户名
 	 * @param author 用户名
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setAuthor(String author) {
@@ -181,7 +181,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置父包路径
 	 * @param parentPkg 父包路径
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setParentPkg(String parentPkg) {
@@ -202,7 +202,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置模块名
 	 * @param module 模块名
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setModule(String module) {
@@ -222,7 +222,7 @@ public class GlobalConfig extends HashMap<String, Object> {
 	/**
 	 * 设置输出路径
 	 * @param outPutFile 输出路径
-	 * @return com.easy.archetype.framework.core.generate.config.GlobalConfig
+	 * @return io.github.easy.archetype.framework.core.generate.config.GlobalConfig
 	 * @since 2021/1/31
 	 */
 	public GlobalConfig setOutPutFile(String outPutFile) {

@@ -1,6 +1,6 @@
-package com.easy.archetype.generate.ext.simple;
+package io.github.easy.archetype.generate.ext.simple;
 
-import com.easy.archetype.generate.template.AbstractTemplate;
+import io.github.easy.archetype.generate.template.AbstractTemplate;
 
 /**
  * service模板

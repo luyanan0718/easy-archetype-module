@@ -1,4 +1,4 @@
-package com.easy.archetype.job.utils;
+package io.github.easy.archetype.job.utils;
 
 import org.quartz.CronExpression;
 

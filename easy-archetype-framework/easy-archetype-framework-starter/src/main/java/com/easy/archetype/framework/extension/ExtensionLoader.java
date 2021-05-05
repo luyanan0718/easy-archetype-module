@@ -1,11 +1,11 @@
-package com.easy.archetype.framework.extension;
+package io.github.easy.archetype.framework.extension;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.extension.annotation.Activate;
-import com.easy.archetype.framework.extension.annotation.Adaptive;
-import com.easy.archetype.framework.extension.annotation.SPI;
+import io.github.easy.archetype.framework.extension.annotation.Activate;
+import io.github.easy.archetype.framework.extension.annotation.Adaptive;
+import io.github.easy.archetype.framework.extension.annotation.SPI;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -176,7 +176,7 @@ public class ExtensionLoader<T> {
 	 * 根据名称创建或者获取Holder
 	 *
 	 * @param name 扩展名
-	 * @return com.easy.archetype.framework.core.extension.Holder<T>
+	 * @return io.github.easy.archetype.framework.core.extension.Holder<T>
 	 * @since 2021/3/4
 	 */
 	private Holder<T> getOrCreateHolder(String name) {
@@ -586,7 +586,7 @@ public class ExtensionLoader<T> {
 	 * 设置classLoader
 	 *
 	 * @param classLoader 类加载器
-	 * @return com.easy.archetype.framework.core.extension.ExtensionLoader
+	 * @return io.github.easy.archetype.framework.core.extension.ExtensionLoader
 	 * @since 2021/3/4
 	 */
 	public ExtensionLoader classLoader(ClassLoader classLoader) {
@@ -599,7 +599,7 @@ public class ExtensionLoader<T> {
 	 * 设置依赖注入
 	 *
 	 * @param injectExtension 依赖注入
-	 * @return com.easy.archetype.framework.core.extension.ExtensionLoader
+	 * @return io.github.easy.archetype.framework.core.extension.ExtensionLoader
 	 * @since 2021/3/4
 	 */
 	public ExtensionLoader injectExtension(InjectExtension injectExtension) {
@@ -612,7 +612,7 @@ public class ExtensionLoader<T> {
 	 * 设置扩展类路径
 	 *
 	 * @param extensionDir 扩展类路径
-	 * @return com.easy.archetype.framework.core.extension.ExtensionLoader
+	 * @return io.github.easy.archetype.framework.core.extension.ExtensionLoader
 	 * @since 2021/3/4
 	 */
 	public ExtensionLoader extensionDir(String extensionDir) {
@@ -624,7 +624,7 @@ public class ExtensionLoader<T> {
 	 * 获取扩展类获取ExtensionLoader
 	 *
 	 * @param type 扩展类
-	 * @return com.easy.archetype.framework.core.extension.ExtensionLoader<T>
+	 * @return io.github.easy.archetype.framework.core.extension.ExtensionLoader<T>
 	 * @since 2021/3/4
 	 */
 	public static <T> ExtensionLoader<T> getExtensionLoader(Class<T> type) {

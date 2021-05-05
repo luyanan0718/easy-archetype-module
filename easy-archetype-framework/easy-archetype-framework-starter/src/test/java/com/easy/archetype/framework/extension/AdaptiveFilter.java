@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.extension;
+package io.github.easy.archetype.framework.extension;
 
-import com.easy.archetype.framework.extension.annotation.Adaptive;
+import io.github.easy.archetype.framework.extension.annotation.Adaptive;
 
 /**
  * 自适应扩展点

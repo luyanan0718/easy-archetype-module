@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.constant;
+package io.github.easy.archetype.framework.constant;
 
 /**
  * 静态常量

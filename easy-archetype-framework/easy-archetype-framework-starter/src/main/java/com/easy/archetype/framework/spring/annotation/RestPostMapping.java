@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.spring.annotation;
+package io.github.easy.archetype.framework.spring.annotation;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.web.bind.annotation.RequestMapping;

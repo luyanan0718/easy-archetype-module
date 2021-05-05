@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
-import com.easy.archetype.framework.jdbc.annotation.FieldStrategy;
+import io.github.easy.archetype.framework.jdbc.annotation.FieldStrategy;
 
 import java.util.List;
 import java.util.Map;
@@ -29,7 +29,7 @@ public interface JdbcEntityParser<T> {
 	 * 获取实体详情
 	 *
 	 * @param entity
-	 * @return com.easy.archetype.framework.core.jdbc.EntityInfo
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityInfo
 	 * @since 2021/3/10
 	 */
 	EntityInfo<T> getEntityInfo(T entity);

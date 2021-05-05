@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.engine;
+package io.github.easy.archetype.generate.engine;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.extra.template.Template;

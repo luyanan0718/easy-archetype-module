@@ -1,8 +1,8 @@
-package com.easy.archetype.framework.config;
+package io.github.easy.archetype.framework.config;
 
-import com.easy.archetype.framework.spring.SpringAutoConfiguration;
-import com.easy.archetype.framework.thread.BusinessThreadPoolAutoConfiguration;
-import com.easy.archetype.framework.xss.XssAutoConfiguration;
+import io.github.easy.archetype.framework.spring.SpringAutoConfiguration;
+import io.github.easy.archetype.framework.thread.BusinessThreadPoolAutoConfiguration;
+import io.github.easy.archetype.framework.xss.XssAutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

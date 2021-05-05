@@ -1,4 +1,4 @@
-package com.easy.archetype.security.security;
+package io.github.easy.archetype.security.security;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

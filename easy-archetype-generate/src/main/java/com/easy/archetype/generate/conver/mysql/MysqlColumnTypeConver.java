@@ -1,8 +1,8 @@
-package com.easy.archetype.generate.conver.mysql;
+package io.github.easy.archetype.generate.conver.mysql;
 
-import com.easy.archetype.generate.conver.IColumnType;
-import com.easy.archetype.generate.conver.IColumnTypeConver;
-import com.easy.archetype.generate.conver.JAVAColumnTypeEnums;
+import io.github.easy.archetype.generate.conver.IColumnType;
+import io.github.easy.archetype.generate.conver.IColumnTypeConver;
+import io.github.easy.archetype.generate.conver.JAVAColumnTypeEnums;
 
 import java.util.HashMap;
 import java.util.Map;

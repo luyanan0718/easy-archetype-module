@@ -1,8 +1,8 @@
-package com.easy.archetype.generate.ext.simple;
+package io.github.easy.archetype.generate.ext.simple;
 
-import com.easy.archetype.generate.config.TemplateConfig;
-import com.easy.archetype.generate.core.TableInfoEntity;
-import com.easy.archetype.generate.template.AbstractTemplate;
+import io.github.easy.archetype.generate.config.TemplateConfig;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.template.AbstractTemplate;
 
 import java.util.Map;
 

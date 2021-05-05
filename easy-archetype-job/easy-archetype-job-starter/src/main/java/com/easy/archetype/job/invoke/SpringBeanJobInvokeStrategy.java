@@ -1,9 +1,9 @@
-package com.easy.archetype.job.invoke;
+package io.github.easy.archetype.job.invoke;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.spring.SpringContextHolder;
-import com.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.framework.spring.SpringContextHolder;
+import io.github.easy.archetype.job.entity.JobVo;
 import lombok.SneakyThrows;
 
 import java.lang.reflect.InvocationTargetException;

@@ -1,7 +1,7 @@
-package com.easy.archetype.generate.query;
+package io.github.easy.archetype.generate.query;
 
-import com.easy.archetype.generate.core.FactoryRegistryHandler;
-import com.easy.archetype.generate.exception.GeneratorException;
+import io.github.easy.archetype.generate.core.FactoryRegistryHandler;
+import io.github.easy.archetype.generate.exception.GeneratorException;
 
 import java.sql.Driver;
 import java.util.HashMap;
@@ -33,7 +33,7 @@ public class TableQueryResultRegistryFactory {
 	/**
 	 * 根据不同的驱动获取不同的查询驱动
 	 * @param driver
-	 * @return com.easy.archetype.framework.core.generate.query.ITableQueryResult
+	 * @return io.github.easy.archetype.framework.core.generate.query.ITableQueryResult
 	 * @since 2021/2/1
 	 */
 	public ITableQueryResult get(Class<? extends Driver> driver) {

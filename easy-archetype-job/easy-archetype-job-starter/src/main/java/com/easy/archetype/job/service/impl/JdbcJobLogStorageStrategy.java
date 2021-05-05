@@ -1,12 +1,12 @@
-package com.easy.archetype.job.service.impl;
+package io.github.easy.archetype.job.service.impl;
 
 import cn.hutool.core.util.IdUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.job.dao.JobLogDao;
-import com.easy.archetype.job.entity.JobLogVo;
-import com.easy.archetype.job.service.JobLogStorageStrategy;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.job.dao.JobLogDao;
+import io.github.easy.archetype.job.entity.JobLogVo;
+import io.github.easy.archetype.job.service.JobLogStorageStrategy;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

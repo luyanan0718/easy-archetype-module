@@ -1,6 +1,6 @@
-package com.easy.archetype.data.file.annotation;
+package io.github.easy.archetype.data.file.annotation;
 
-import com.easy.archetype.data.file.FileServerSelector;
+import io.github.easy.archetype.data.file.FileServerSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

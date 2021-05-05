@@ -1,4 +1,4 @@
-package com.easy.archetype.security.validatecode.captcha;
+package io.github.easy.archetype.security.validatecode.captcha;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;

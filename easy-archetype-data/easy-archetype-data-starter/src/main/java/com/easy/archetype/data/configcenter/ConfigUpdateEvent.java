@@ -1,4 +1,4 @@
-package com.easy.archetype.data.configcenter;
+package io.github.easy.archetype.data.configcenter;
 
 import org.springframework.context.ApplicationEvent;
 

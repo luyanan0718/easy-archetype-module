@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.conver;
+package io.github.easy.archetype.generate.conver;
 
 /**
  * 字段映射(SQL-JAVA)
@@ -12,7 +12,7 @@ public interface IColumnTypeConver {
 	/**
 	 * 根据数据库类型查询Java类型
 	 * @param jdbcType 数据库类型
-	 * @return com.easy.archetype.framework.core.generate.conver.IColumnType
+	 * @return io.github.easy.archetype.framework.core.generate.conver.IColumnType
 	 * @since 2021/1/31
 	 */
 	IColumnType convert(String jdbcType);

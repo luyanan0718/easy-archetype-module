@@ -1,4 +1,4 @@
-package com.easy.archetype.job.config;
+package io.github.easy.archetype.job.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

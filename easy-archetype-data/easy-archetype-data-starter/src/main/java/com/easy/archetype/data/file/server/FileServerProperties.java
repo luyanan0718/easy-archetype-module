@@ -1,6 +1,6 @@
-package com.easy.archetype.data.file.server;
+package io.github.easy.archetype.data.file.server;
 
-import com.easy.archetype.data.file.FileProperties;
+import io.github.easy.archetype.data.file.FileProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

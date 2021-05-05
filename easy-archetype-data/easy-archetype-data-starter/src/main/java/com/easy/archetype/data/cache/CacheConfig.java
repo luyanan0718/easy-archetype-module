@@ -1,4 +1,4 @@
-package com.easy.archetype.data.cache;
+package io.github.easy.archetype.data.cache;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;

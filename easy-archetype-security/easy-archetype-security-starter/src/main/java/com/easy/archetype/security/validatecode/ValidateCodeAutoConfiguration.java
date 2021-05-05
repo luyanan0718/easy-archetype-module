@@ -1,9 +1,9 @@
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;
 
 
-import com.easy.archetype.security.validatecode.captcha.CaptchaConfig;
-import com.easy.archetype.security.validatecode.captcha.CaptchaValidateCodeProcessor;
-import com.easy.archetype.security.validatecode.storage.RedisValidateCodeStorage;
+import io.github.easy.archetype.security.validatecode.captcha.CaptchaConfig;
+import io.github.easy.archetype.security.validatecode.captcha.CaptchaValidateCodeProcessor;
+import io.github.easy.archetype.security.validatecode.storage.RedisValidateCodeStorage;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

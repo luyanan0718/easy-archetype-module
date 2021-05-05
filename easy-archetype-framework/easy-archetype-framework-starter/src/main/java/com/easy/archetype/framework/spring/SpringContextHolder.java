@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.spring;
+package io.github.easy.archetype.framework.spring;
 
 import cn.hutool.core.util.StrUtil;
 import lombok.extern.slf4j.Slf4j;

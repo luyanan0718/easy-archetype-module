@@ -1,6 +1,6 @@
-package com.easy.archetype.data.redis;
+package io.github.easy.archetype.data.redis;
 
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

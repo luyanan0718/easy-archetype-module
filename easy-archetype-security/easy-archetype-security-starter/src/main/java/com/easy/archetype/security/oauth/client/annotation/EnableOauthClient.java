@@ -1,6 +1,6 @@
-package com.easy.archetype.security.oauth.client.annotation;
+package io.github.easy.archetype.security.oauth.client.annotation;
 
-import com.easy.archetype.security.oauth.client.OauthClientAutoConfiguration;
+import io.github.easy.archetype.security.oauth.client.OauthClientAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

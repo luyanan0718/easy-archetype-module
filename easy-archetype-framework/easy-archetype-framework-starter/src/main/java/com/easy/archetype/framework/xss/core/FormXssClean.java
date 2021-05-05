@@ -1,7 +1,7 @@
-package com.easy.archetype.framework.xss.core;
+package io.github.easy.archetype.framework.xss.core;
 
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.xss.utils.XssUtil;
+import io.github.easy.archetype.framework.xss.utils.XssUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.ControllerAdvice;

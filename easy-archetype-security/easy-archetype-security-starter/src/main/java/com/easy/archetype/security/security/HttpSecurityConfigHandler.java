@@ -1,4 +1,4 @@
-package com.easy.archetype.security.security;
+package io.github.easy.archetype.security.security;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;

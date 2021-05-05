@@ -1,4 +1,4 @@
-package com.easy.archetype.security.oauth.server.exception;
+package io.github.easy.archetype.security.oauth.server.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

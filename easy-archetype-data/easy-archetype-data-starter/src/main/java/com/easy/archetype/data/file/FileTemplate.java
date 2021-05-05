@@ -1,7 +1,7 @@
-package com.easy.archetype.data.file;
+package io.github.easy.archetype.data.file;
 
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.constant.Constants;
+import io.github.easy.archetype.framework.constant.Constants;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.web.multipart.MultipartFile;

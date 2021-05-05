@@ -1,6 +1,6 @@
-package com.easy.archetype.data.cache;
+package io.github.easy.archetype.data.cache;
 
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
 import org.springframework.boot.autoconfigure.cache.CacheProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

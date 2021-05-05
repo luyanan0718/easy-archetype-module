@@ -1,7 +1,7 @@
-package com.easy.archetype.generate.conver.mysql;
+package io.github.easy.archetype.generate.conver.mysql;
 
-import com.easy.archetype.generate.conver.IColumnType;
-import com.easy.archetype.generate.exception.GeneratorException;
+import io.github.easy.archetype.generate.conver.IColumnType;
+import io.github.easy.archetype.generate.exception.GeneratorException;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -210,7 +210,7 @@ public enum MySQLColumnType implements IColumnType {
 	/**
 	 * 根据数据库类型获取相应的枚举
 	 * @param type 数据库类型
-	 * @return com.easy.archetype.framework.core.generate.conver.mysql.MySQLColumnType
+	 * @return io.github.easy.archetype.framework.core.generate.conver.mysql.MySQLColumnType
 	 * @since 2021/1/31
 	 */
 	public static MySQLColumnType get(String type) {

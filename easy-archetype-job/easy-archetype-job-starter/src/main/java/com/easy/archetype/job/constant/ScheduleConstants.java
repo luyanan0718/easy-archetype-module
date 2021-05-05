@@ -1,4 +1,4 @@
-package com.easy.archetype.job.constant;
+package io.github.easy.archetype.job.constant;
 
 /**
  * 任务调度 常量

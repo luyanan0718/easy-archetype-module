@@ -1,10 +1,10 @@
-package com.easy.archetype.data.file.server.storagestrategy;
+package io.github.easy.archetype.data.file.server.storagestrategy;
 
 import cn.hutool.core.lang.Assert;
 import cn.hutool.extra.ftp.Ftp;
-import com.easy.archetype.data.file.exception.FileException;
-import com.easy.archetype.data.file.server.FileServerProperties;
-import com.easy.archetype.data.file.server.IFileStorageStrategy;
+import io.github.easy.archetype.data.file.exception.FileException;
+import io.github.easy.archetype.data.file.server.FileServerProperties;
+import io.github.easy.archetype.data.file.server.IFileStorageStrategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 

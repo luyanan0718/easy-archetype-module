@@ -1,7 +1,7 @@
-package com.easy.archetype.data.file.client;
+package io.github.easy.archetype.data.file.client;
 
 import cn.hutool.core.lang.Assert;
-import com.easy.archetype.data.file.IFileService;
+import io.github.easy.archetype.data.file.IFileService;
 import lombok.RequiredArgsConstructor;
 
 import java.io.InputStream;

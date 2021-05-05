@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
-import com.easy.archetype.framework.jdbc.annotation.FieldStrategy;
+import io.github.easy.archetype.framework.jdbc.annotation.FieldStrategy;
 import lombok.Data;
 
 /**

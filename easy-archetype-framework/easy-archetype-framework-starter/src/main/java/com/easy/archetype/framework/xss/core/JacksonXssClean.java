@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.xss.core;
+package io.github.easy.archetype.framework.xss.core;
 
-import com.easy.archetype.framework.xss.utils.XssUtil;
+import io.github.easy.archetype.framework.xss.utils.XssUtil;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;

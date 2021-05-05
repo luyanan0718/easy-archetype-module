@@ -1,8 +1,8 @@
-package com.easy.archetype.data.file;
+package io.github.easy.archetype.data.file;
 
-import com.easy.archetype.data.file.annotation.EnableFileServer;
-import com.easy.archetype.data.file.client.FileClientAutoConfiguration;
-import com.easy.archetype.data.file.server.FileServiceAutoConfiguration;
+import io.github.easy.archetype.data.file.annotation.EnableFileServer;
+import io.github.easy.archetype.data.file.client.FileClientAutoConfiguration;
+import io.github.easy.archetype.data.file.server.FileServiceAutoConfiguration;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;

@@ -1,7 +1,7 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.easy.archetype.framework.jdbc.annotation.FieldStrategy;
+import io.github.easy.archetype.framework.jdbc.annotation.FieldStrategy;
 import lombok.Data;
 
 import java.util.ArrayList;
@@ -165,7 +165,7 @@ public class EntityWrappers<T> {
 	/**
 	 * 删除的SQL
 	 *
-	 * @return com.easy.archetype.framework.core.jdbc.EntityWrappers.SqlResult
+	 * @return io.github.easy.archetype.framework.core.jdbc.EntityWrappers.SqlResult
 	 * @since 2021/3/14
 	 */
 	public SqlResult getDeleteSql() {

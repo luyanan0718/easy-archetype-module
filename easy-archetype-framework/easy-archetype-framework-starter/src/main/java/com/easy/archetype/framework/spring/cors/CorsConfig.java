@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.spring.cors;
+package io.github.easy.archetype.framework.spring.cors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

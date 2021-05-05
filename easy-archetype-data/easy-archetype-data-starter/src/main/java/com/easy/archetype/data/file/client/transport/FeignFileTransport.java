@@ -1,8 +1,8 @@
-package com.easy.archetype.data.file.client.transport;
+package io.github.easy.archetype.data.file.client.transport;
 
 import cn.hutool.core.lang.Assert;
-import com.easy.archetype.data.file.client.FileClientProperties;
-import com.easy.archetype.data.file.client.IFileTransport;
+import io.github.easy.archetype.data.file.client.FileClientProperties;
+import io.github.easy.archetype.data.file.client.IFileTransport;
 import feign.Client;
 import feign.Contract;
 import feign.Feign;

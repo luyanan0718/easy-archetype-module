@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.thread;
+package io.github.easy.archetype.framework.thread;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

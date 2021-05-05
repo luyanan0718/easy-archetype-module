@@ -1,11 +1,11 @@
-package com.easy.archetype.job.job;
+package io.github.easy.archetype.job.job;
 
 import cn.hutool.core.exceptions.ExceptionUtil;
-import com.easy.archetype.framework.spring.SpringContextHolder;
-import com.easy.archetype.job.constant.ScheduleConstants;
-import com.easy.archetype.job.entity.JobLogVo;
-import com.easy.archetype.job.entity.JobVo;
-import com.easy.archetype.job.service.JobLogStorageStrategy;
+import io.github.easy.archetype.framework.spring.SpringContextHolder;
+import io.github.easy.archetype.job.constant.ScheduleConstants;
+import io.github.easy.archetype.job.entity.JobLogVo;
+import io.github.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.service.JobLogStorageStrategy;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

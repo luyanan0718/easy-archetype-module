@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.config;
+package io.github.easy.archetype.generate.config;
 
 /**
  * 全局配置的key

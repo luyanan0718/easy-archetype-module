@@ -1,4 +1,4 @@
-package com.easy.archetype.security.core;
+package io.github.easy.archetype.security.core;
 
 /**
  * 获取登录的用户Service
@@ -19,7 +19,7 @@ public interface LoginUserService {
 	/**
 	 * 获取当前用户
 	 *
-	 * @return com.easy.archetype.common.user.CurrUserVo
+	 * @return io.github.easy.archetype.common.user.CurrUserVo
 	 * @since 2021/1/31
 	 */
 	LoginUserVo getUser();

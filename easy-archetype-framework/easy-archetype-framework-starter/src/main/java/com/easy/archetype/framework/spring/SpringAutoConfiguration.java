@@ -1,7 +1,7 @@
-package com.easy.archetype.framework.spring;
+package io.github.easy.archetype.framework.spring;
 
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
-import com.easy.archetype.framework.spring.cors.CorsAutoConfiguration;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.framework.spring.cors.CorsAutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

@@ -1,6 +1,6 @@
-package com.easy.archetype.generate.file;
+package io.github.easy.archetype.generate.file;
 
-import com.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.config.GlobalConfig;
 
 import java.util.List;
 

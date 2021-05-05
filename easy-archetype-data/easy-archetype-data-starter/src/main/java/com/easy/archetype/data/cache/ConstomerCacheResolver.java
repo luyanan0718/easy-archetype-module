@@ -1,4 +1,4 @@
-package com.easy.archetype.data.cache;
+package io.github.easy.archetype.data.cache;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.interceptor.AbstractCacheResolver;

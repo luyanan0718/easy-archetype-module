@@ -1,9 +1,9 @@
-package com.easy.archetype.security.security;
+package io.github.easy.archetype.security.security;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSON;
-import com.easy.archetype.security.core.LoginUserVo;
+import io.github.easy.archetype.security.core.LoginUserVo;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -56,7 +56,7 @@ public abstract class AbstractUserDetailsService implements UserDetailsService {
 	 * 获取用户信息
 	 *
 	 * @param username
-	 * @return com.easy.archetype.security.core.LoginUserVo
+	 * @return io.github.easy.archetype.security.core.LoginUserVo
 	 * @since 2021/2/18
 	 */
 	protected abstract LoginUserVo loginUserVo(String username);

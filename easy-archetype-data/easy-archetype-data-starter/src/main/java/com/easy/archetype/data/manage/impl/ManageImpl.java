@@ -1,10 +1,10 @@
-package com.easy.archetype.data.manage.impl;
+package io.github.easy.archetype.data.manage.impl;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.data.manage.AbstractManageImpl;
-import com.easy.archetype.data.mybatisplus.BaseMapperPlus;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.data.manage.AbstractManageImpl;
+import io.github.easy.archetype.data.mybatisplus.BaseMapperPlus;
 import org.springframework.util.Assert;
 
 import java.io.Serializable;

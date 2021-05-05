@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.lambda;
+package io.github.easy.archetype.framework.lambda;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

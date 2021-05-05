@@ -1,8 +1,8 @@
-package com.easy.archetype.generate.query;
+package io.github.easy.archetype.generate.query;
 
-import com.easy.archetype.generate.core.TableFieldEntity;
-import com.easy.archetype.generate.core.TableIndexEntity;
-import com.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.core.TableFieldEntity;
+import io.github.easy.archetype.generate.core.TableIndexEntity;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
 
 import javax.sql.DataSource;
 import java.util.List;
@@ -27,7 +27,7 @@ public interface ITableQueryResult {
 	 * 根据表名称查询表字段
 	 * @param tableName 表名称
 	 * @param dataSource 连接信息
-	 * @return java.util.List<com.easy.archetype.framework.core.generate.core.TableFieldEntity>
+	 * @return java.util.List<io.github.easy.archetype.framework.core.generate.core.TableFieldEntity>
 	 * @since 2021/2/1
 	 */
 	List<TableFieldEntity> getTableFieldEntitys(String tableName, DataSource dataSource);
@@ -36,7 +36,7 @@ public interface ITableQueryResult {
 	 * 根据表名查询索引
 	 * @param tableName 表名称
 	 * @param dataSource 连接信息
-	 * @return java.util.List<com.easy.archetype.framework.core.generate.core.TableIndexEntity>
+	 * @return java.util.List<io.github.easy.archetype.framework.core.generate.core.TableIndexEntity>
 	 * @since 2021/2/1
 	 */
 	List<TableIndexEntity> getTableIndexEntitys(String tableName, DataSource dataSource);

@@ -1,8 +1,8 @@
-package com.easy.archetype.framework.xss;
+package io.github.easy.archetype.framework.xss;
 
-import com.easy.archetype.framework.xss.core.FormXssClean;
-import com.easy.archetype.framework.xss.core.JacksonXssClean;
-import com.easy.archetype.framework.xss.core.XssCleanInterceptor;
+import io.github.easy.archetype.framework.xss.core.FormXssClean;
+import io.github.easy.archetype.framework.xss.core.JacksonXssClean;
+import io.github.easy.archetype.framework.xss.core.XssCleanInterceptor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.conver;
+package io.github.easy.archetype.generate.conver;
 
 /**
  * 字段类型转换

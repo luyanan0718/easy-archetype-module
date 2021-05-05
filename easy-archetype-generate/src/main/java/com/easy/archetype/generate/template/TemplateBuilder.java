@@ -1,8 +1,8 @@
-package com.easy.archetype.generate.template;
+package io.github.easy.archetype.generate.template;
 
 import cn.hutool.core.lang.Assert;
-import com.easy.archetype.generate.config.GlobalConfig;
-import com.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
 
 /**
  * 模板Builder

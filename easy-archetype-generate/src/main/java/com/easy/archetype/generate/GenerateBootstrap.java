@@ -1,27 +1,27 @@
-package com.easy.archetype.generate;
+package io.github.easy.archetype.generate;
 
 import cn.hutool.core.lang.Assert;
-import com.easy.archetype.generate.config.ConfigHandler;
-import com.easy.archetype.generate.config.ConfigParser;
-import com.easy.archetype.generate.config.GenerateConstants;
-import com.easy.archetype.generate.config.GlobalConfig;
-import com.easy.archetype.generate.conver.ColumnTypeConverFactory;
-import com.easy.archetype.generate.conver.IColumnTypeConver;
-import com.easy.archetype.generate.conver.mysql.MysqlColumnTypeConver;
-import com.easy.archetype.generate.core.FactoryRegistryHandler;
-import com.easy.archetype.generate.core.TableInfoEntity;
-import com.easy.archetype.generate.engine.FreemarkerTemplateEngine;
-import com.easy.archetype.generate.engine.ITemplateEngine;
-import com.easy.archetype.generate.ext.doc.SimpleDocTemplateGroup;
-import com.easy.archetype.generate.ext.simple.SimpleTemplateGroup;
-import com.easy.archetype.generate.file.DefaultFileOutputHandler;
-import com.easy.archetype.generate.file.FileOutputHandler;
-import com.easy.archetype.generate.file.OutputFile;
-import com.easy.archetype.generate.query.ITableQueryResult;
-import com.easy.archetype.generate.query.MySqlTableQueryResult;
-import com.easy.archetype.generate.query.TableQueryResultRegistryFactory;
-import com.easy.archetype.generate.template.ITemplateGroup;
-import com.easy.archetype.generate.template.TemplateGroupRegister;
+import io.github.easy.archetype.generate.config.ConfigHandler;
+import io.github.easy.archetype.generate.config.ConfigParser;
+import io.github.easy.archetype.generate.config.GenerateConstants;
+import io.github.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.conver.ColumnTypeConverFactory;
+import io.github.easy.archetype.generate.conver.IColumnTypeConver;
+import io.github.easy.archetype.generate.conver.mysql.MysqlColumnTypeConver;
+import io.github.easy.archetype.generate.core.FactoryRegistryHandler;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.engine.FreemarkerTemplateEngine;
+import io.github.easy.archetype.generate.engine.ITemplateEngine;
+import io.github.easy.archetype.generate.ext.doc.SimpleDocTemplateGroup;
+import io.github.easy.archetype.generate.ext.simple.SimpleTemplateGroup;
+import io.github.easy.archetype.generate.file.DefaultFileOutputHandler;
+import io.github.easy.archetype.generate.file.FileOutputHandler;
+import io.github.easy.archetype.generate.file.OutputFile;
+import io.github.easy.archetype.generate.query.ITableQueryResult;
+import io.github.easy.archetype.generate.query.MySqlTableQueryResult;
+import io.github.easy.archetype.generate.query.TableQueryResultRegistryFactory;
+import io.github.easy.archetype.generate.template.ITemplateGroup;
+import io.github.easy.archetype.generate.template.TemplateGroupRegister;
 
 import java.sql.Driver;
 import java.util.List;
@@ -45,7 +45,7 @@ public class GenerateBootstrap {
 	/**
 	 * 设置全局配置文件
 	 * @param globalConfig 全局配置文件
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap globalConfig(GlobalConfig globalConfig) {
@@ -56,7 +56,7 @@ public class GenerateBootstrap {
 	/**
 	 * 通过配置文件加载配置
 	 * @param propertiesPath 配置文件路径
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap globalConfig(String propertiesPath) {
@@ -70,7 +70,7 @@ public class GenerateBootstrap {
 
 	/**
 	 * 通过默认的配置文件加载配置
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap globalConfig() {
@@ -87,7 +87,7 @@ public class GenerateBootstrap {
 	/**
 	 * 注册类型转化
 	 * @param factoryRegistryHandler 注册工厂
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap columnTypeConverRegistry(
@@ -107,7 +107,7 @@ public class GenerateBootstrap {
 	/**
 	 * 数据查询类型注册
 	 * @param factoryRegistryHandler 类型注册工厂
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap tableQueryResultRegistry(
@@ -127,7 +127,7 @@ public class GenerateBootstrap {
 	/**
 	 * 设置模板引擎
 	 * @param templateEngine 模板引擎
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap engine(ITemplateEngine templateEngine) {
@@ -145,7 +145,7 @@ public class GenerateBootstrap {
 	/**
 	 * 设置文件处理类
 	 * @param fileOutputHandler 文件处理类
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap fileOutputHandler(FileOutputHandler fileOutputHandler) {
@@ -163,7 +163,7 @@ public class GenerateBootstrap {
 	/**
 	 * 模板组注册
 	 * @param factoryRegistryHandler 注册器
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap templateGroupRegister(
@@ -182,7 +182,7 @@ public class GenerateBootstrap {
 	/**
 	 * 设置配置处理类
 	 * @param configHandler 配置处理类
-	 * @return com.easy.archetype.framework.core.generate.GenerateBootstrap
+	 * @return io.github.easy.archetype.framework.core.generate.GenerateBootstrap
 	 * @since 2021/2/2
 	 */
 	public GenerateBootstrap configHandler(ConfigHandler configHandler) {

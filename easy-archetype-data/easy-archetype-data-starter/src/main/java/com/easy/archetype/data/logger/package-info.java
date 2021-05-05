@@ -5,4 +5,4 @@
  * @author luyanan
  * @since 2021/1/31
  */
-package com.easy.archetype.data.logger;
+package io.github.easy.archetype.data.logger;

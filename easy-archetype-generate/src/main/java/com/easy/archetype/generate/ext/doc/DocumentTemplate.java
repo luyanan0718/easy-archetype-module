@@ -1,6 +1,6 @@
-package com.easy.archetype.generate.ext.doc;
+package io.github.easy.archetype.generate.ext.doc;
 
-import com.easy.archetype.generate.template.AbstractTemplate;
+import io.github.easy.archetype.generate.template.AbstractTemplate;
 
 /**
  * 文件 模板

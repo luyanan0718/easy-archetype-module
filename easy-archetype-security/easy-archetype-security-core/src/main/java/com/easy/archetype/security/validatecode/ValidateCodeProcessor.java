@@ -1,7 +1,7 @@
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;
 
 
-import com.easy.archetype.security.validatecode.storage.ValidateCodeStorage;
+import io.github.easy.archetype.security.validatecode.storage.ValidateCodeStorage;
 
 import java.time.Duration;
 import java.util.Map;
@@ -26,7 +26,7 @@ public interface ValidateCodeProcessor {
 	/**
 	 * 设置验证码存储气
 	 *
-	 * @return com.easy.archetype.system.security.validatecode.storage.ValidateCodeStorage
+	 * @return io.github.easy.archetype.system.security.validatecode.storage.ValidateCodeStorage
 	 * @since 2021/2/10
 	 */
 	ValidateCodeStorage validateCodeStorage();

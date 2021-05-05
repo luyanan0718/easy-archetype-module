@@ -1,4 +1,4 @@
-package com.easy.archetype.security.annotation;
+package io.github.easy.archetype.security.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.easy.archetype.data.file.exception;
+package io.github.easy.archetype.data.file.exception;
 
 /**
  * 文件异常

@@ -1,6 +1,6 @@
-package com.easy.archetype.security.security.annotation;
+package io.github.easy.archetype.security.security.annotation;
 
-import com.easy.archetype.security.security.WebSecurityAutoConfiguration;
+import io.github.easy.archetype.security.security.WebSecurityAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

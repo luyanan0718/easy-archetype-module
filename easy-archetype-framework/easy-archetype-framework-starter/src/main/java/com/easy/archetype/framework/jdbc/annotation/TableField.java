@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.jdbc.annotation;
+package io.github.easy.archetype.framework.jdbc.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

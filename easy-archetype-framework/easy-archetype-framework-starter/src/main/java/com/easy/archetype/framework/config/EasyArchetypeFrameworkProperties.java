@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.config;
+package io.github.easy.archetype.framework.config;
 
-import com.easy.archetype.framework.thread.BusinessThreadPoolProperties;
+import io.github.easy.archetype.framework.thread.BusinessThreadPoolProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

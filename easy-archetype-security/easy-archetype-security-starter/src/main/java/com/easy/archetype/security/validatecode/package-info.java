@@ -6,4 +6,4 @@
  * @author luyanan
  * @since 2021/2/9
  */
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;

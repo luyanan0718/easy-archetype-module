@@ -1,4 +1,4 @@
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

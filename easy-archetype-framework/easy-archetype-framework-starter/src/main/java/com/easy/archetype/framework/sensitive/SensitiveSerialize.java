@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.sensitive;
+package io.github.easy.archetype.framework.sensitive;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.BeanProperty;

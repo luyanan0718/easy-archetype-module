@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.sensitive;
+package io.github.easy.archetype.framework.sensitive;
 
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -28,7 +28,7 @@ public @interface Sensitive {
 	/**
 	 * 脱敏策略
 	 * @return java.lang.Class<? extends
-	 * com.easy.archetype.framework.sensitive.SensitiveStrategy>
+	 * io.github.easy.archetype.framework.sensitive.SensitiveStrategy>
 	 * @since 2021/2/8
 	 */
 	Class<? extends SensitiveStrategy> sensitiveStrategy() default DefaultSensitiveStrategy.class;

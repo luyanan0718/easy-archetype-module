@@ -1,8 +1,8 @@
-package com.easy.archetype.generate.file;
+package io.github.easy.archetype.generate.file;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.io.FileUtil;
-import com.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.config.GlobalConfig;
 
 import java.util.List;
 

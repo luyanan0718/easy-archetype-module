@@ -1,4 +1,4 @@
-package com.easy.archetype.data.manage;
+package io.github.easy.archetype.data.manage;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
@@ -8,9 +8,9 @@ import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.data.mybatisplus.BaseMapperPlus;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.data.mybatisplus.BaseMapperPlus;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -90,7 +90,7 @@ public abstract class AbstractManageImpl<M extends BaseMapperPlus<T>, T> extends
 	 *
 	 * @param pageRequestParams 分页请求参数
 	 * @param queryWrapper      条件构造器
-	 * @return com.easy.archetype.framework.core.page.PageInfo<T>
+	 * @return io.github.easy.archetype.framework.core.page.PageInfo<T>
 	 * @since 2021/1/21
 	 */
 	public <E extends IPage<T>> PageInfo<T> toPageInfo(PageRequestParams<T> pageRequestParams,

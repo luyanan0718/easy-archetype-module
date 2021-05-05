@@ -1,9 +1,9 @@
-package com.easy.archetype.framework.thread;
+package io.github.easy.archetype.framework.thread;
 
 import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
 import org.springframework.beans.factory.ObjectProvider;

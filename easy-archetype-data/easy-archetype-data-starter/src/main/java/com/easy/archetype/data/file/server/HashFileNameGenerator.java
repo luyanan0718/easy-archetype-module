@@ -1,9 +1,9 @@
-package com.easy.archetype.data.file.server;
+package io.github.easy.archetype.data.file.server;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.crypto.SecureUtil;
-import com.easy.archetype.data.file.FileInfo;
+import io.github.easy.archetype.data.file.FileInfo;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

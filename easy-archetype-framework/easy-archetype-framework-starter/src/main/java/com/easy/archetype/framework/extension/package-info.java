@@ -1,2 +1,2 @@
 
-package com.easy.archetype.framework.extension;
+package io.github.easy.archetype.framework.extension;

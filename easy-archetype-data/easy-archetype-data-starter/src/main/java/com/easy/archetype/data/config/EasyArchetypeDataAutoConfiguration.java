@@ -1,10 +1,10 @@
-package com.easy.archetype.data.config;
+package io.github.easy.archetype.data.config;
 
-import com.easy.archetype.data.cache.RedisCacheAutoConfiguration;
-import com.easy.archetype.data.configcenter.ConfigCenterAutoConfiguration;
-import com.easy.archetype.data.logger.LoggerAutoConfiguration;
-import com.easy.archetype.data.mybatisplus.MybatisPlusConfiguration;
-import com.easy.archetype.data.redis.RedisAutoConfiguration;
+import io.github.easy.archetype.data.cache.RedisCacheAutoConfiguration;
+import io.github.easy.archetype.data.configcenter.ConfigCenterAutoConfiguration;
+import io.github.easy.archetype.data.logger.LoggerAutoConfiguration;
+import io.github.easy.archetype.data.mybatisplus.MybatisPlusConfiguration;
+import io.github.easy.archetype.data.redis.RedisAutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

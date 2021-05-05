@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.file;
+package io.github.easy.archetype.generate.file;
 
 import lombok.Data;
 

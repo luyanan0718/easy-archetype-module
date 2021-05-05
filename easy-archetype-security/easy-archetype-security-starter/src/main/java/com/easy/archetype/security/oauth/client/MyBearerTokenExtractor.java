@@ -1,4 +1,4 @@
-package com.easy.archetype.security.oauth.client;
+package io.github.easy.archetype.security.oauth.client;
 
 import cn.hutool.extra.servlet.ServletUtil;
 import lombok.RequiredArgsConstructor;

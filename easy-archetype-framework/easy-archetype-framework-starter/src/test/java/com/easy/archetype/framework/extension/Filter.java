@@ -1,6 +1,6 @@
-package com.easy.archetype.framework.extension;
+package io.github.easy.archetype.framework.extension;
 
-import com.easy.archetype.framework.extension.annotation.SPI;
+import io.github.easy.archetype.framework.extension.annotation.SPI;
 
 /**
  * 过滤器

@@ -1,4 +1,4 @@
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.ObjectProvider;
@@ -32,7 +32,7 @@ public class ValidateCodeTemplate {
 	 * 根据类型获取验证码处理器
 	 *
 	 * @param type 处理器类型
-	 * @return com.easy.archetype.system.security.validatecode.ValidateCodeProcessor
+	 * @return io.github.easy.archetype.system.security.validatecode.ValidateCodeProcessor
 	 * @since 2021/2/9
 	 */
 	public ValidateCodeProcessor processor(String type) {
@@ -95,7 +95,7 @@ public class ValidateCodeTemplate {
 	 * 根据类型获取验证码处理器
 	 *
 	 * @param type 类型
-	 * @return com.easy.archetype.system.security.validatecode.ValidateCodeProcessor
+	 * @return io.github.easy.archetype.system.security.validatecode.ValidateCodeProcessor
 	 * @since 2021/2/9
 	 */
 	private ValidateCodeProcessor getProcessor(String type) {

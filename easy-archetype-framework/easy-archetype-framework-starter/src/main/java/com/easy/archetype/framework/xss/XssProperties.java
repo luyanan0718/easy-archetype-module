@@ -1,7 +1,7 @@
-package com.easy.archetype.framework.xss;
+package io.github.easy.archetype.framework.xss;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
 import lombok.Data;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,4 +1,4 @@
-package com.easy.archetype.data.cache;
+package io.github.easy.archetype.data.cache;
 
 import org.springframework.boot.autoconfigure.cache.CacheProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

@@ -1,11 +1,11 @@
-package com.easy.archetype.job.controller;
+package io.github.easy.archetype.job.controller;
 
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.framework.page.RespEntity;
-import com.easy.archetype.framework.spring.annotation.RestGetMapping;
-import com.easy.archetype.job.entity.JobLogVo;
-import com.easy.archetype.job.service.JobLogStorageStrategy;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.framework.page.RespEntity;
+import io.github.easy.archetype.framework.spring.annotation.RestGetMapping;
+import io.github.easy.archetype.job.entity.JobLogVo;
+import io.github.easy.archetype.job.service.JobLogStorageStrategy;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +30,7 @@ public class JobLogController {
 	 * 分页查询
 	 *
 	 * @param pageRequestParams
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = " 分页查询")
@@ -45,7 +45,7 @@ public class JobLogController {
 	 * 根据日志id查询日志
 	 *
 	 * @param jobLogId
-	 * @return com.easy.archetype.framework.page.RespEntity<com.easy.archetype.job.entity.JobLogVo>
+	 * @return io.github.easy.archetype.framework.page.RespEntity<io.github.easy.archetype.job.entity.JobLogVo>
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = " 根据日志id查询日志")
@@ -60,7 +60,7 @@ public class JobLogController {
 	 * 根据日志集合id删除
 	 *
 	 * @param jobLogIds 日志id集合
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "根据日志集合id删除")
@@ -74,7 +74,7 @@ public class JobLogController {
 	/**
 	 * 清空日志
 	 *
-	 * @return com.easy.archetype.framework.page.RespEntity
+	 * @return io.github.easy.archetype.framework.page.RespEntity
 	 * @since 2021/3/24
 	 */
 	@ApiOperation(value = "")

@@ -1,4 +1,4 @@
-package com.easy.archetype.data.file.client;
+package io.github.easy.archetype.data.file.client;
 
 import java.io.InputStream;
 

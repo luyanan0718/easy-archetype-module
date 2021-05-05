@@ -1,6 +1,6 @@
-package com.easy.archetype.data.logger;
+package io.github.easy.archetype.data.logger;
 
-import com.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
+import io.github.easy.archetype.framework.config.EasyArchetypeFrameworkProperties;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

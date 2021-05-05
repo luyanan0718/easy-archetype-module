@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.page;
+package io.github.easy.archetype.framework.page;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

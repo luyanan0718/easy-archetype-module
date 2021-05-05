@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.utils;
+package io.github.easy.archetype.generate.utils;
 
 import cn.hutool.db.ds.simple.AbstractDataSource;
 

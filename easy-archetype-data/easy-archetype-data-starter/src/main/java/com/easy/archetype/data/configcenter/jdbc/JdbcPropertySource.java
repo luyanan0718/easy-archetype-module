@@ -1,4 +1,4 @@
-package com.easy.archetype.data.configcenter.jdbc;
+package io.github.easy.archetype.data.configcenter.jdbc;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ReferenceUtil;
@@ -8,7 +8,7 @@ import cn.hutool.db.Entity;
 import cn.hutool.db.handler.EntityListHandler;
 import cn.hutool.db.handler.RsHandler;
 import cn.hutool.db.sql.SqlExecutor;
-import com.easy.archetype.data.configcenter.PropertySource;
+import io.github.easy.archetype.data.configcenter.PropertySource;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 

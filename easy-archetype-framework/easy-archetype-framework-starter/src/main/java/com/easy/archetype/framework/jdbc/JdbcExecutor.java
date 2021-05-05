@@ -1,9 +1,9 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ReflectUtil;
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
 import lombok.SneakyThrows;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -36,7 +36,7 @@ public class JdbcExecutor extends JdbcTemplate {
 	 * 设置全局配置文件
 	 *
 	 * @param jdbcGlobalConfig 全局配置文件
-	 * @return com.easy.archetype.framework.core.jdbc.JdbcExecutor
+	 * @return io.github.easy.archetype.framework.core.jdbc.JdbcExecutor
 	 * @since 2021/3/9
 	 */
 	public JdbcExecutor jdbcGlobalConfig(JdbcGlobalConfig jdbcGlobalConfig) {
@@ -268,7 +268,7 @@ public class JdbcExecutor extends JdbcTemplate {
 	 * @param offset 下标
 	 * @param limit  条数
 	 * @param entity 实体条件
-	 * @return com.easy.archetype.framework.core.page.PageInfo<T>
+	 * @return io.github.easy.archetype.framework.core.page.PageInfo<T>
 	 * @since 2021/3/14
 	 */
 	public <T> PageInfo<T> selectByPage(Integer offset, Integer limit, T entity) {
@@ -296,7 +296,7 @@ public class JdbcExecutor extends JdbcTemplate {
 	 *
 	 * @param pageRequestParams
 	 * @param requiredType
-	 * @return com.easy.archetype.framework.core.page.PageInfo<T>
+	 * @return io.github.easy.archetype.framework.core.page.PageInfo<T>
 	 * @since 2021/3/14
 	 */
 	public <T> PageInfo<T> selectByPage(PageRequestParams<T> pageRequestParams, Class<T> requiredType) {

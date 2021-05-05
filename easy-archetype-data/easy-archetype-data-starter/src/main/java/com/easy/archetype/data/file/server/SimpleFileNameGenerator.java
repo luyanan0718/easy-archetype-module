@@ -1,8 +1,8 @@
-package com.easy.archetype.data.file.server;
+package io.github.easy.archetype.data.file.server;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.IdUtil;
-import com.easy.archetype.data.file.FileInfo;
+import io.github.easy.archetype.data.file.FileInfo;
 
 import java.io.InputStream;
 

@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.config;
+package io.github.easy.archetype.generate.config;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ClassUtil;

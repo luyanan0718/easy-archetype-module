@@ -1,12 +1,12 @@
-package com.easy.archetype.security.validatecode.captcha;
+package io.github.easy.archetype.security.validatecode.captcha;
 
 import cn.hutool.core.codec.Base64;
-import com.easy.archetype.security.validatecode.AbstractValidateCodeProcessor;
+import io.github.easy.archetype.security.validatecode.AbstractValidateCodeProcessor;
 
-import com.easy.archetype.security.validatecode.ValidateCodeConstant;
-import com.easy.archetype.security.validatecode.ValidateCodeException;
-import com.easy.archetype.security.validatecode.ValidateCodeProperties;
-import com.easy.archetype.security.validatecode.storage.ValidateCodeStorage;
+import io.github.easy.archetype.security.validatecode.ValidateCodeConstant;
+import io.github.easy.archetype.security.validatecode.ValidateCodeException;
+import io.github.easy.archetype.security.validatecode.ValidateCodeProperties;
+import io.github.easy.archetype.security.validatecode.storage.ValidateCodeStorage;
 import com.google.code.kaptcha.Producer;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;

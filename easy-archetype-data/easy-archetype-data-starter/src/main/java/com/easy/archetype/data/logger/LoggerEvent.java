@@ -1,4 +1,4 @@
-package com.easy.archetype.data.logger;
+package io.github.easy.archetype.data.logger;
 
 import org.springframework.context.ApplicationEvent;
 

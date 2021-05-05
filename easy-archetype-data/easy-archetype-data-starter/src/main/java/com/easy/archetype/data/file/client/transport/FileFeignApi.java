@@ -1,6 +1,6 @@
-package com.easy.archetype.data.file.client.transport;
+package io.github.easy.archetype.data.file.client.transport;
 
-import com.easy.archetype.framework.page.RespEntity;
+import io.github.easy.archetype.framework.page.RespEntity;
 import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,7 +22,7 @@ public interface FileFeignApi {
 	 * @param path   上传的文件路径
 	 * @param file   文件
 	 * @param rename 是否需要重命名
-	 * @return com.easy.archetype.framework.core.page.RespEntity
+	 * @return io.github.easy.archetype.framework.core.page.RespEntity
 	 * @since 2021/2/26
 	 */
 	@SneakyThrows
@@ -35,7 +35,7 @@ public interface FileFeignApi {
 	 * 文件删除
 	 *
 	 * @param path 文件路径
-	 * @return com.easy.archetype.framework.core.page.RespEntity
+	 * @return io.github.easy.archetype.framework.core.page.RespEntity
 	 * @since 2021/2/26
 	 */
 	@GetMapping("remove/{path}")

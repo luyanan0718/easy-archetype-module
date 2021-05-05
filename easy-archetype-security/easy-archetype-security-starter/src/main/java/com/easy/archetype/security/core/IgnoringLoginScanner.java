@@ -1,8 +1,8 @@
-package com.easy.archetype.security.core;
+package io.github.easy.archetype.security.core;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.easy.archetype.security.annotation.IgnoringLogin;
-import com.easy.archetype.security.security.SecurityProperties;
+import io.github.easy.archetype.security.annotation.IgnoringLogin;
+import io.github.easy.archetype.security.security.SecurityProperties;
 import lombok.Getter;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

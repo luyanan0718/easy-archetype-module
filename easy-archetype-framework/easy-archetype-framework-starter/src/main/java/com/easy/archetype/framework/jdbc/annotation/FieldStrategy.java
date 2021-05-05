@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.jdbc.annotation;
+package io.github.easy.archetype.framework.jdbc.annotation;
 
 /**
  * 字段策略枚举类

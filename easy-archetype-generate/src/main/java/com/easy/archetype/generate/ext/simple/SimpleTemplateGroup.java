@@ -1,9 +1,9 @@
-package com.easy.archetype.generate.ext.simple;
+package io.github.easy.archetype.generate.ext.simple;
 
-import com.easy.archetype.generate.config.TemplateConfig;
-import com.easy.archetype.generate.template.AbstractTemplateGroup;
-import com.easy.archetype.generate.template.ITemplate;
-import com.easy.archetype.generate.template.TemplateBuilder;
+import io.github.easy.archetype.generate.config.TemplateConfig;
+import io.github.easy.archetype.generate.template.AbstractTemplateGroup;
+import io.github.easy.archetype.generate.template.ITemplate;
+import io.github.easy.archetype.generate.template.TemplateBuilder;
 
 import java.util.List;
 

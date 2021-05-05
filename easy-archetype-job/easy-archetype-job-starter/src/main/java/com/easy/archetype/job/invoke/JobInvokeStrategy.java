@@ -1,6 +1,6 @@
-package com.easy.archetype.job.invoke;
+package io.github.easy.archetype.job.invoke;
 
-import com.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.entity.JobVo;
 
 /**
  * 任务执行的策略

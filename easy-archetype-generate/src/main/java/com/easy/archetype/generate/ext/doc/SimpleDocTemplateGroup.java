@@ -1,20 +1,20 @@
-package com.easy.archetype.generate.ext.doc;
+package io.github.easy.archetype.generate.ext.doc;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ReUtil;
 import cn.hutool.db.ds.simple.SimpleDataSource;
-import com.easy.archetype.generate.config.GlobalConfig;
-import com.easy.archetype.generate.conver.IColumnType;
-import com.easy.archetype.generate.conver.IColumnTypeConver;
-import com.easy.archetype.generate.core.TableFieldEntity;
-import com.easy.archetype.generate.core.TableInfoEntity;
-import com.easy.archetype.generate.engine.ITemplateEngine;
-import com.easy.archetype.generate.file.OutputFile;
-import com.easy.archetype.generate.query.ITableQueryResult;
-import com.easy.archetype.generate.template.AbstractTemplateGroup;
-import com.easy.archetype.generate.template.ITemplate;
-import com.easy.archetype.generate.template.TemplateBuilder;
-import com.easy.archetype.generate.utils.NamingStrategy;
+import io.github.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.conver.IColumnType;
+import io.github.easy.archetype.generate.conver.IColumnTypeConver;
+import io.github.easy.archetype.generate.core.TableFieldEntity;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.engine.ITemplateEngine;
+import io.github.easy.archetype.generate.file.OutputFile;
+import io.github.easy.archetype.generate.query.ITableQueryResult;
+import io.github.easy.archetype.generate.template.AbstractTemplateGroup;
+import io.github.easy.archetype.generate.template.ITemplate;
+import io.github.easy.archetype.generate.template.TemplateBuilder;
+import io.github.easy.archetype.generate.utils.NamingStrategy;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,10 +1,10 @@
-package com.easy.archetype.security.security;
+package io.github.easy.archetype.security.security;
 
-import com.easy.archetype.security.core.IgnoringLoginScanner;
-import com.easy.archetype.security.core.LoginUserService;
-import com.easy.archetype.security.core.LoginUserServiceImpl;
-import com.easy.archetype.security.core.PermissionService;
-import com.easy.archetype.security.validatecode.ValidateCodeFilter;
+import io.github.easy.archetype.security.core.IgnoringLoginScanner;
+import io.github.easy.archetype.security.core.LoginUserService;
+import io.github.easy.archetype.security.core.LoginUserServiceImpl;
+import io.github.easy.archetype.security.core.PermissionService;
+import io.github.easy.archetype.security.validatecode.ValidateCodeFilter;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

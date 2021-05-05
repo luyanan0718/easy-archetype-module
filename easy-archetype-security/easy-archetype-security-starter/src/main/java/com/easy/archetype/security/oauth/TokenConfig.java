@@ -1,4 +1,4 @@
-package com.easy.archetype.security.oauth;
+package io.github.easy.archetype.security.oauth;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

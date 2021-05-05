@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.xss.utils;
+package io.github.easy.archetype.framework.xss.utils;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Attribute;

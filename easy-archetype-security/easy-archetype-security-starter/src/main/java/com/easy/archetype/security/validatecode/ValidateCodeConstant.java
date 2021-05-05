@@ -1,4 +1,4 @@
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;
 
 /**
  * 验证码的静态类

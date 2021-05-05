@@ -1,9 +1,9 @@
-package com.easy.archetype.framework.extension;
+package io.github.easy.archetype.framework.extension;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.util.ReflectUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.extension.annotation.Inject;
+import io.github.easy.archetype.framework.extension.annotation.Inject;
 
 import java.lang.reflect.Field;
 import java.util.List;

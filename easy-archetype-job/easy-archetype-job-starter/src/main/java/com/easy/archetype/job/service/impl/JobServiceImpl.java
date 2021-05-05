@@ -1,15 +1,15 @@
-package com.easy.archetype.job.service.impl;
+package io.github.easy.archetype.job.service.impl;
 
 import cn.hutool.core.util.IdUtil;
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.job.constant.ScheduleConstants;
-import com.easy.archetype.job.dao.JobDao;
-import com.easy.archetype.job.entity.JobVo;
-import com.easy.archetype.job.service.JobService;
-import com.easy.archetype.job.utils.CronUtils;
-import com.easy.archetype.job.utils.ScheduleUtils;
-import com.easy.archetype.security.core.LoginUserService;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.job.constant.ScheduleConstants;
+import io.github.easy.archetype.job.dao.JobDao;
+import io.github.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.service.JobService;
+import io.github.easy.archetype.job.utils.CronUtils;
+import io.github.easy.archetype.job.utils.ScheduleUtils;
+import io.github.easy.archetype.security.core.LoginUserService;
 import org.quartz.JobDataMap;
 import org.quartz.JobKey;
 import org.quartz.Scheduler;

@@ -1,10 +1,10 @@
-package com.easy.archetype.generate.ext.simple;
+package io.github.easy.archetype.generate.ext.simple;
 
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.generate.config.TemplateConfig;
-import com.easy.archetype.generate.core.TableFieldEntity;
-import com.easy.archetype.generate.core.TableInfoEntity;
-import com.easy.archetype.generate.template.AbstractTemplate;
+import io.github.easy.archetype.generate.config.TemplateConfig;
+import io.github.easy.archetype.generate.core.TableFieldEntity;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.template.AbstractTemplate;
 
 import java.util.List;
 import java.util.Map;

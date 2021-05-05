@@ -1,13 +1,13 @@
-package com.easy.archetype.data.file.client.transport;
+package io.github.easy.archetype.data.file.client.transport;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.lang.Assert;
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSON;
-import com.easy.archetype.framework.page.RespEntity;
-import com.easy.archetype.data.file.client.FileClientProperties;
-import com.easy.archetype.data.file.client.IFileTransport;
-import com.easy.archetype.data.file.exception.FileException;
+import io.github.easy.archetype.framework.page.RespEntity;
+import io.github.easy.archetype.data.file.client.FileClientProperties;
+import io.github.easy.archetype.data.file.client.IFileTransport;
+import io.github.easy.archetype.data.file.exception.FileException;
 import lombok.RequiredArgsConstructor;
 
 import java.io.File;

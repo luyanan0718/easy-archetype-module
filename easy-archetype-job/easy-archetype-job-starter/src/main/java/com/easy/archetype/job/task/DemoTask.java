@@ -1,4 +1,4 @@
-package com.easy.archetype.job.task;
+package io.github.easy.archetype.job.task;
 
 import cn.hutool.core.util.StrUtil;
 

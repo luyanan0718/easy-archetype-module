@@ -1,6 +1,6 @@
-package com.easy.archetype.security.validatecode.storage;
+package io.github.easy.archetype.security.validatecode.storage;
 
-import com.easy.archetype.security.validatecode.ValidateCodeProperties;
+import io.github.easy.archetype.security.validatecode.ValidateCodeProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.data.redis.core.RedisTemplate;
 

@@ -1,7 +1,7 @@
-package com.easy.archetype.generate.template;
+package io.github.easy.archetype.generate.template;
 
-import com.easy.archetype.generate.core.FactoryRegistryHandler;
-import com.easy.archetype.generate.exception.GeneratorException;
+import io.github.easy.archetype.generate.core.FactoryRegistryHandler;
+import io.github.easy.archetype.generate.exception.GeneratorException;
 
 import java.util.HashMap;
 import java.util.Map;

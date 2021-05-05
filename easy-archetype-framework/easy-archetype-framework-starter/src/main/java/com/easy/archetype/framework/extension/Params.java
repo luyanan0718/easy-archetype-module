@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.extension;
+package io.github.easy.archetype.framework.extension;
 
 import lombok.Getter;
 
@@ -36,7 +36,7 @@ public class Params {
 	 * 设置分组
 	 *
 	 * @param group 分组
-	 * @return com.easy.archetype.framework.core.extension.Params
+	 * @return io.github.easy.archetype.framework.core.extension.Params
 	 * @since 2021/3/4
 	 */
 	public Params addGroup(String group) {
@@ -48,7 +48,7 @@ public class Params {
 	 * 设置参数
 	 *
 	 * @param param 参数
-	 * @return com.easy.archetype.framework.core.extension.Params
+	 * @return io.github.easy.archetype.framework.core.extension.Params
 	 * @since 2021/3/4
 	 */
 	public Params addParam(String param) {
@@ -60,7 +60,7 @@ public class Params {
 	 * 移除参数
 	 *
 	 * @param param 参数
-	 * @return com.easy.archetype.framework.core.extension.Params
+	 * @return io.github.easy.archetype.framework.core.extension.Params
 	 * @since 2021/3/4
 	 */
 	public Params remove(String param) {
@@ -71,7 +71,7 @@ public class Params {
 	/**
 	 * builder
 	 *
-	 * @return com.easy.archetype.framework.core.extension.Params
+	 * @return io.github.easy.archetype.framework.core.extension.Params
 	 * @since 2021/3/7
 	 */
 	public static Params builder() {

@@ -1,12 +1,12 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
 import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.ReflectUtil;
 import cn.hutool.core.util.StrUtil;
-import com.easy.archetype.framework.jdbc.annotation.FieldStrategy;
-import com.easy.archetype.framework.jdbc.annotation.TableField;
-import com.easy.archetype.framework.jdbc.annotation.TableId;
-import com.easy.archetype.framework.jdbc.annotation.TableName;
+import io.github.easy.archetype.framework.jdbc.annotation.FieldStrategy;
+import io.github.easy.archetype.framework.jdbc.annotation.TableField;
+import io.github.easy.archetype.framework.jdbc.annotation.TableId;
+import io.github.easy.archetype.framework.jdbc.annotation.TableName;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

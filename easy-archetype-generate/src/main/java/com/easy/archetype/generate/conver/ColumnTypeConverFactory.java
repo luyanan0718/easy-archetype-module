@@ -1,7 +1,7 @@
-package com.easy.archetype.generate.conver;
+package io.github.easy.archetype.generate.conver;
 
-import com.easy.archetype.generate.core.FactoryRegistryHandler;
-import com.easy.archetype.generate.exception.GeneratorException;
+import io.github.easy.archetype.generate.core.FactoryRegistryHandler;
+import io.github.easy.archetype.generate.exception.GeneratorException;
 
 import java.sql.Driver;
 import java.util.HashMap;
@@ -38,7 +38,7 @@ public class ColumnTypeConverFactory {
 	/**
 	 * 根据数据库驱动获取类型转换器
 	 * @param type 数据库驱动
-	 * @return com.easy.archetype.framework.core.generate.conver.IColumnTypeConver
+	 * @return io.github.easy.archetype.framework.core.generate.conver.IColumnTypeConver
 	 * @since 2021/1/31
 	 */
 	public IColumnTypeConver getConver(Class<? extends Driver> type) {

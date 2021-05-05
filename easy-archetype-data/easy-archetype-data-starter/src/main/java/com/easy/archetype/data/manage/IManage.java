@@ -1,8 +1,8 @@
-package com.easy.archetype.data.manage;
+package io.github.easy.archetype.data.manage;
 
 
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -27,7 +27,7 @@ public interface IManage<T> {
 	/**
 	 * 分页查询
 	 * @param pageRequestParams 分页参数
-	 * @return com.easy.archetype.framework.core.page.PageInfo<T> 分页
+	 * @return io.github.easy.archetype.framework.core.page.PageInfo<T> 分页
 	 * @since 2021/1/20
 	 */
 	PageInfo<T> listByPage(PageRequestParams<T> pageRequestParams);

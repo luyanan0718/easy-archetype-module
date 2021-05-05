@@ -1,10 +1,10 @@
-package com.easy.archetype.job.dao;
+package io.github.easy.archetype.job.dao;
 
-import com.easy.archetype.framework.jdbc.EntityWrapper;
-import com.easy.archetype.framework.jdbc.JdbcExecutor;
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.framework.jdbc.EntityWrapper;
+import io.github.easy.archetype.framework.jdbc.JdbcExecutor;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.job.entity.JobVo;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public class JobDao {
 	 * 查询任务
 	 *
 	 * @param jobVo
-	 * @return java.util.List<com.easy.archetype.job.entity.JobVo>
+	 * @return java.util.List<io.github.easy.archetype.job.entity.JobVo>
 	 * @since 2021/3/20
 	 */
 	public List<JobVo> selectList(JobVo jobVo) {
@@ -34,7 +34,7 @@ public class JobDao {
 	 * 分页查询
 	 *
 	 * @param pageRequestParams
-	 * @return com.easy.archetype.framework.page.PageInfo<com.easy.archetype.job.entity.JobVo>
+	 * @return io.github.easy.archetype.framework.page.PageInfo<io.github.easy.archetype.job.entity.JobVo>
 	 * @since 2021/3/20
 	 */
 	public PageInfo<JobVo> selectByPage(PageRequestParams<JobVo> pageRequestParams) {
@@ -45,7 +45,7 @@ public class JobDao {
 	 * 根据id查询
 	 *
 	 * @param jobId 任务id
-	 * @return com.easy.archetype.job.entity.JobVo
+	 * @return io.github.easy.archetype.job.entity.JobVo
 	 * @since 2021/3/20
 	 */
 	public JobVo selectById(String jobId) {

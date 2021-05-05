@@ -1,7 +1,7 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
 import cn.hutool.core.lang.Assert;
-import com.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageInfo;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

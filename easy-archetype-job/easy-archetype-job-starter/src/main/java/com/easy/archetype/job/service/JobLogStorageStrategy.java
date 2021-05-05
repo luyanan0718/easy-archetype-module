@@ -1,8 +1,8 @@
-package com.easy.archetype.job.service;
+package io.github.easy.archetype.job.service;
 
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.job.entity.JobLogVo;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.job.entity.JobLogVo;
 
 /**
  * 任务日志存储策略
@@ -17,7 +17,7 @@ public interface JobLogStorageStrategy {
 	 * 分页查询
 	 *
 	 * @param pageRequestParams 分页参数
-	 * @return com.easy.archetype.framework.page.PageInfo<com.easy.archetype.job.entity.JobLogVo>
+	 * @return io.github.easy.archetype.framework.page.PageInfo<io.github.easy.archetype.job.entity.JobLogVo>
 	 * @since 2021/3/20
 	 */
 	PageInfo<JobLogVo> findByPage(PageRequestParams<JobLogVo> pageRequestParams);
@@ -26,7 +26,7 @@ public interface JobLogStorageStrategy {
 	 * 根据日志id查询
 	 *
 	 * @param logId 日志id
-	 * @return com.easy.archetype.job.entity.JobLogVo
+	 * @return io.github.easy.archetype.job.entity.JobLogVo
 	 * @since 2021/3/20
 	 */
 	JobLogVo findById(String logId);

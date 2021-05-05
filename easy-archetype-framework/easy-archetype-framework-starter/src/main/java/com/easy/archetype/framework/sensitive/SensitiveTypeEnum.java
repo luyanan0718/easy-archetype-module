@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.sensitive;
+package io.github.easy.archetype.framework.sensitive;
 
 /**
  * 脱敏类型枚举

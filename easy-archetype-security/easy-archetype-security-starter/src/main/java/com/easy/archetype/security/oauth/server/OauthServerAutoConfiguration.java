@@ -1,9 +1,9 @@
-package com.easy.archetype.security.oauth.server;
+package io.github.easy.archetype.security.oauth.server;
 
-import com.easy.archetype.security.oauth.SpringSecurityOauthProperties;
-import com.easy.archetype.security.oauth.TokenConfig;
-import com.easy.archetype.security.oauth.server.exception.CustomWebResponseExceptionTranslator;
-import com.easy.archetype.security.security.annotation.EnableSecurity;
+import io.github.easy.archetype.security.oauth.SpringSecurityOauthProperties;
+import io.github.easy.archetype.security.oauth.TokenConfig;
+import io.github.easy.archetype.security.oauth.server.exception.CustomWebResponseExceptionTranslator;
+import io.github.easy.archetype.security.security.annotation.EnableSecurity;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

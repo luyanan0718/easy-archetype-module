@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.thread;
+package io.github.easy.archetype.framework.thread;
 
 import java.util.HashMap;
 import java.util.Map;

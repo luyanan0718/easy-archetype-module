@@ -1,4 +1,4 @@
-package com.easy.archetype.security.validatecode;
+package io.github.easy.archetype.security.validatecode;
 
 import cn.hutool.core.util.StrUtil;
 import org.springframework.util.Assert;

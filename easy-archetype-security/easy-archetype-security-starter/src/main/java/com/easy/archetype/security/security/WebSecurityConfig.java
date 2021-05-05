@@ -1,9 +1,9 @@
-package com.easy.archetype.security.security;
+package io.github.easy.archetype.security.security;
 
 import cn.hutool.core.collection.CollectionUtil;
-import com.easy.archetype.security.core.IgnoringLoginScanner;
-import com.easy.archetype.security.validatecode.ValidateCodeFilter;
-import com.easy.archetype.security.validatecode.ValidateCodeProperties;
+import io.github.easy.archetype.security.core.IgnoringLoginScanner;
+import io.github.easy.archetype.security.validatecode.ValidateCodeFilter;
+import io.github.easy.archetype.security.validatecode.ValidateCodeProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

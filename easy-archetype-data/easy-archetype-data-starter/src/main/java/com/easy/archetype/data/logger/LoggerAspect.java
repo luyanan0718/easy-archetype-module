@@ -1,7 +1,7 @@
-package com.easy.archetype.data.logger;
+package io.github.easy.archetype.data.logger;
 
-import com.easy.archetype.data.logger.annotation.IgnoreLogger;
-import com.easy.archetype.framework.spring.SpringContextHolder;
+import io.github.easy.archetype.data.logger.annotation.IgnoreLogger;
+import io.github.easy.archetype.framework.spring.SpringContextHolder;
 import io.swagger.annotations.ApiOperation;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

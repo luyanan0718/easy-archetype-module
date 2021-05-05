@@ -1,4 +1,4 @@
-package com.easy.archetype.generate.core;
+package io.github.easy.archetype.generate.core;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

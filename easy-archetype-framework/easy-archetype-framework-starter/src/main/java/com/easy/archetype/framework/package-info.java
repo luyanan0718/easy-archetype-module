@@ -1,1 +1,1 @@
-package com.easy.archetype.framework;
+package io.github.easy.archetype.framework;

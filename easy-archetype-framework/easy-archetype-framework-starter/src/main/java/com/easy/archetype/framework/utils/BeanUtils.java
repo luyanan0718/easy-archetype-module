@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.utils;
+package io.github.easy.archetype.framework.utils;
 
 /**
  * 对象复制工具类

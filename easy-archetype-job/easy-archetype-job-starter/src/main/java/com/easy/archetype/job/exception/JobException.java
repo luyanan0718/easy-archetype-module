@@ -1,4 +1,4 @@
-package com.easy.archetype.job.exception;
+package io.github.easy.archetype.job.exception;
 
 /**
  * 任务异常

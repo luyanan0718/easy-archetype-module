@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.page;
+package io.github.easy.archetype.framework.page;
 
 import lombok.Data;
 
@@ -86,7 +86,7 @@ public class RespEntity<T> implements Serializable {
 	 * 成功返回
 	 *
 	 * @param data 返回的数据
-	 * @return com.easy.archetype.framework.core.RespEntity<T>
+	 * @return io.github.easy.archetype.framework.core.RespEntity<T>
 	 * @since 2021/1/24
 	 */
 	public static <T> RespEntity<T> success(T data) {
@@ -96,7 +96,7 @@ public class RespEntity<T> implements Serializable {
 	/**
 	 * 成功返回
 	 *
-	 * @return com.easy.archetype.framework.core.RespEntity<T>
+	 * @return io.github.easy.archetype.framework.core.RespEntity<T>
 	 * @since 2021/1/24
 	 */
 	public static RespEntity success() {
@@ -107,7 +107,7 @@ public class RespEntity<T> implements Serializable {
 	 * 成功返回,返回类型为Map
 	 *
 	 * @param handler map处理类
-	 * @return com.easy.archetype.framework.core.page.RespEntity
+	 * @return io.github.easy.archetype.framework.core.page.RespEntity
 	 * @since 2021/2/28
 	 */
 	public static RespEntity success(RespEntityMapHandler handler) {
@@ -142,7 +142,7 @@ public class RespEntity<T> implements Serializable {
 	 * 异常信息
 	 *
 	 * @param status
-	 * @return com.easy.archetype.framework.core.RespEntity<T>
+	 * @return io.github.easy.archetype.framework.core.RespEntity<T>
 	 * @since 2021/1/24
 	 */
 	public static <T> RespEntity<T> error(String status, Object... args) {
@@ -190,7 +190,7 @@ public class RespEntity<T> implements Serializable {
 	 *
 	 * @param msg    异常消息
 	 * @param status 异常编码
-	 * @return com.easy.archetype.framework.core.page.RespEntity<T>
+	 * @return io.github.easy.archetype.framework.core.page.RespEntity<T>
 	 * @since 2021/2/28
 	 */
 	private static <T> RespEntity<T> initErrorData(String status, Object... msg) {

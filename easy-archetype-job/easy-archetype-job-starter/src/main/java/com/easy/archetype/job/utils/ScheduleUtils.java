@@ -1,8 +1,8 @@
-package com.easy.archetype.job.utils;
+package io.github.easy.archetype.job.utils;
 
-import com.easy.archetype.job.constant.ScheduleConstants;
-import com.easy.archetype.job.entity.JobVo;
-import com.easy.archetype.job.exception.JobException;
+import io.github.easy.archetype.job.constant.ScheduleConstants;
+import io.github.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.exception.JobException;
 import org.quartz.*;
 
 /**

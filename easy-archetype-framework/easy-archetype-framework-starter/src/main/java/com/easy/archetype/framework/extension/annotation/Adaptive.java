@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.extension.annotation;
+package io.github.easy.archetype.framework.extension.annotation;
 
 import java.lang.annotation.*;
 

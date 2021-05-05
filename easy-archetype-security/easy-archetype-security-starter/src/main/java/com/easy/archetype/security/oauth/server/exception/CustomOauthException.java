@@ -1,4 +1,4 @@
-package com.easy.archetype.security.oauth.server.exception;
+package io.github.easy.archetype.security.oauth.server.exception;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.springframework.security.oauth2.common.exceptions.OAuth2Exception;

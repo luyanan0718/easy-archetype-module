@@ -1,6 +1,6 @@
-package com.easy.archetype.job.job;
+package io.github.easy.archetype.job.job;
 
-import com.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.entity.JobVo;
 import org.quartz.*;
 
 /**

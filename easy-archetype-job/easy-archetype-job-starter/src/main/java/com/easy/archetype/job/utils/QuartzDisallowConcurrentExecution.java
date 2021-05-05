@@ -1,9 +1,9 @@
-package com.easy.archetype.job.utils;
+package io.github.easy.archetype.job.utils;
 
-import com.easy.archetype.framework.spring.SpringContextHolder;
-import com.easy.archetype.job.entity.JobVo;
-import com.easy.archetype.job.invoke.JobInvokeFactory;
-import com.easy.archetype.job.job.AbstractQuartzJob;
+import io.github.easy.archetype.framework.spring.SpringContextHolder;
+import io.github.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.job.invoke.JobInvokeFactory;
+import io.github.easy.archetype.job.job.AbstractQuartzJob;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.JobExecutionContext;

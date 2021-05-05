@@ -1,8 +1,8 @@
-package com.easy.archetype.job.entity;
+package io.github.easy.archetype.job.entity;
 
-import com.easy.archetype.framework.jdbc.FieldType;
-import com.easy.archetype.framework.jdbc.annotation.TableId;
-import com.easy.archetype.framework.jdbc.annotation.TableName;
+import io.github.easy.archetype.framework.jdbc.FieldType;
+import io.github.easy.archetype.framework.jdbc.annotation.TableId;
+import io.github.easy.archetype.framework.jdbc.annotation.TableName;
 import lombok.Data;
 
 import java.io.Serializable;

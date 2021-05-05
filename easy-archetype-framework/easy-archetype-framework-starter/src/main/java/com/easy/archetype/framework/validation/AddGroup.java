@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.validation;
+package io.github.easy.archetype.framework.validation;
 
 /**
  * <p>

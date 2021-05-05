@@ -1,7 +1,7 @@
-package com.easy.archetype.framework.jdbc;
+package io.github.easy.archetype.framework.jdbc;
 
-import com.easy.archetype.framework.jdbc.annotation.TableField;
-import com.easy.archetype.framework.jdbc.annotation.TableId;
+import io.github.easy.archetype.framework.jdbc.annotation.TableField;
+import io.github.easy.archetype.framework.jdbc.annotation.TableId;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

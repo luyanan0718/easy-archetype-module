@@ -1,4 +1,4 @@
-package com.easy.archetype.data.mybatis;
+package io.github.easy.archetype.data.mybatis;
 
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.util.ArrayUtil;

@@ -1,8 +1,8 @@
-package com.easy.archetype.job.service;
+package io.github.easy.archetype.job.service;
 
-import com.easy.archetype.framework.page.PageInfo;
-import com.easy.archetype.framework.page.PageRequestParams;
-import com.easy.archetype.job.entity.JobVo;
+import io.github.easy.archetype.framework.page.PageInfo;
+import io.github.easy.archetype.framework.page.PageRequestParams;
+import io.github.easy.archetype.job.entity.JobVo;
 import org.quartz.SchedulerException;
 
 import java.util.List;
@@ -19,7 +19,7 @@ public interface JobService {
 	 * 分页
 	 *
 	 * @param pageRequestParams 分页参数
-	 * @return com.easy.archetype.framework.page.PageInfo<com.easy.archetype.job.entity.JobVo>
+	 * @return io.github.easy.archetype.framework.page.PageInfo<io.github.easy.archetype.job.entity.JobVo>
 	 * @since 2021/3/20
 	 */
 	PageInfo<JobVo> page(PageRequestParams<JobVo> pageRequestParams);
@@ -28,7 +28,7 @@ public interface JobService {
 	 * 任务列表
 	 *
 	 * @param jobVo
-	 * @return java.util.List<com.easy.archetype.job.entity.JobVo>
+	 * @return java.util.List<io.github.easy.archetype.job.entity.JobVo>
 	 * @since 2021/3/20
 	 */
 	List<JobVo> list(JobVo jobVo);
@@ -38,7 +38,7 @@ public interface JobService {
 	 * 根据任务id查询
 	 *
 	 * @param jobId 任务id
-	 * @return com.easy.archetype.job.entity.JobVo
+	 * @return io.github.easy.archetype.job.entity.JobVo
 	 * @since 2021/3/20
 	 */
 	JobVo findById(String jobId);

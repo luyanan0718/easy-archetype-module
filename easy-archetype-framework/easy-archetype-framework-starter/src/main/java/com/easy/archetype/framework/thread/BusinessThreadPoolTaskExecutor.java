@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.thread;
+package io.github.easy.archetype.framework.thread;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.ObjectProvider;
@@ -106,7 +106,7 @@ public class BusinessThreadPoolTaskExecutor extends ThreadPoolTaskExecutor {
 
 	/**
 	 * 获取监控数据
-	 * @return com.easy.archetype.framework.core.thread.ThreadPoolMonitorVo
+	 * @return io.github.easy.archetype.framework.core.thread.ThreadPoolMonitorVo
 	 * @since 2021/1/22
 	 */
 	public ThreadPoolMonitorVo getThreadPoolMonitorVo() {

@@ -1,4 +1,4 @@
-package com.easy.archetype.security.core;
+package io.github.easy.archetype.security.core;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

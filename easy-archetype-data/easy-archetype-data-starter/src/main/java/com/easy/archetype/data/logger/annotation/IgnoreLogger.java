@@ -1,4 +1,4 @@
-package com.easy.archetype.data.logger.annotation;
+package io.github.easy.archetype.data.logger.annotation;
 
 import java.lang.annotation.*;
 
@@ -15,7 +15,7 @@ public @interface IgnoreLogger {
 
 	/**
 	 * 忽略类型,默认全部忽略
-	 * @return com.easy.archetype.framework.data.logger.annotation.IgnoreLogger.IgnoreLoggerType
+	 * @return io.github.easy.archetype.framework.data.logger.annotation.IgnoreLogger.IgnoreLoggerType
 	 * @since 2021/1/22
 	 */
 	IgnoreLoggerType type() default IgnoreLoggerType.ALL;

@@ -1,4 +1,4 @@
-package com.easy.archetype.security.core;
+package io.github.easy.archetype.security.core;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;

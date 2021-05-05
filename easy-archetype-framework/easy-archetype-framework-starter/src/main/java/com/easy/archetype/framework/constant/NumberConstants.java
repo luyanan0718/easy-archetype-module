@@ -1,4 +1,4 @@
-package com.easy.archetype.framework.constant;
+package io.github.easy.archetype.framework.constant;
 
 /**
  * 数字的静态类

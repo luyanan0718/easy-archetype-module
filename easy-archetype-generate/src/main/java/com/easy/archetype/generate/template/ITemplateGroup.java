@@ -1,11 +1,11 @@
-package com.easy.archetype.generate.template;
+package io.github.easy.archetype.generate.template;
 
-import com.easy.archetype.generate.config.GlobalConfig;
-import com.easy.archetype.generate.conver.IColumnTypeConver;
-import com.easy.archetype.generate.core.TableInfoEntity;
-import com.easy.archetype.generate.engine.ITemplateEngine;
-import com.easy.archetype.generate.file.OutputFile;
-import com.easy.archetype.generate.query.ITableQueryResult;
+import io.github.easy.archetype.generate.config.GlobalConfig;
+import io.github.easy.archetype.generate.conver.IColumnTypeConver;
+import io.github.easy.archetype.generate.core.TableInfoEntity;
+import io.github.easy.archetype.generate.engine.ITemplateEngine;
+import io.github.easy.archetype.generate.file.OutputFile;
+import io.github.easy.archetype.generate.query.ITableQueryResult;
 
 import java.util.List;
 
@@ -29,7 +29,7 @@ public interface ITemplateGroup {
 	 * @param tableInfoEntities 表信息
 	 * @param templateEngine 模板引擎
 	 * @param globalConfig 全局配置
-	 * @return java.util.List<com.easy.archetype.framework.core.generate.file.OutputFile>
+	 * @return java.util.List<io.github.easy.archetype.framework.core.generate.file.OutputFile>
 	 * @since 2021/2/1
 	 */
 	List<OutputFile> generate(List<TableInfoEntity> tableInfoEntities, ITemplateEngine templateEngine,
@@ -40,7 +40,7 @@ public interface ITemplateGroup {
 	 * @param tableQueryResult 查询引擎
 	 * @param globalConfig 全局配置
 	 * @param columnTypeConver 类型转换器
-	 * @return java.util.List<com.easy.archetype.framework.core.generate.core.TableInfoEntity>
+	 * @return java.util.List<io.github.easy.archetype.framework.core.generate.core.TableInfoEntity>
 	 * @since 2021/2/1
 	 */
 	List<TableInfoEntity> getGenerateTableInfo(ITableQueryResult tableQueryResult, GlobalConfig globalConfig,

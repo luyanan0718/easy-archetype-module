@@ -1,4 +1,4 @@
-package com.easy.archetype.security.validatecode.storage;
+package io.github.easy.archetype.security.validatecode.storage;
 
 import java.time.Duration;
 
