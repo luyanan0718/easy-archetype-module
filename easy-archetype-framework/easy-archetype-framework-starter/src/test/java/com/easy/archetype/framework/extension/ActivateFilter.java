@@ -1,6 +1,6 @@
-package io.github.easy.archetype.framework.extension;
+package io.github.luyanan0718.easy.archetype.framework.extension;
 
-import io.github.easy.archetype.framework.extension.annotation.Activate;
+import io.github.luyanan0718.easy.archetype.framework.extension.annotation.Activate;
 
 /**
  * 自定义激活扩展点

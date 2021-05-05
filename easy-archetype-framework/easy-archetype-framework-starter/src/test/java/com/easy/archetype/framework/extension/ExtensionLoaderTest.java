@@ -1,4 +1,4 @@
-package io.github.easy.archetype.framework.extension;
+package io.github.luyanan0718.easy.archetype.framework.extension;
 
 import org.junit.jupiter.api.Test;
 
