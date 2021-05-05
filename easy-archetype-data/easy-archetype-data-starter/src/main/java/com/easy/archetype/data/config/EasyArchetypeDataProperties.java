@@ -13,7 +13,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties(prefix = EasyArchetypeDataProperties.PREFIX)
 public class EasyArchetypeDataProperties {
-	public static final String PREFIX = "com.easy.archetype.data";
+	public static final String PREFIX = "easy.archetype.data";
 	/**
 	 * redis的配置
 	 *
